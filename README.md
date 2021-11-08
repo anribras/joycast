@@ -3,6 +3,6 @@
 ## crawl rss feeds source
 ```sh
 cd crawler
-# ximalaya
-scrapy crawl ximalaya -o ximalaya.json -a album=123215
+scrapy crawl xima_cates -O jsons/ximalaya_categories.json -t jsonlines
+scrapy crawl xima_cates -O jsons/ximalaya_categories.json -t jsonlines
 ```

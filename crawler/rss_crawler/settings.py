@@ -50,9 +50,9 @@ ROBOTSTXT_OBEY = True
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
-#DOWNLOADER_MIDDLEWARES = {
-#    'rss_crawler.middlewares.RssCrawlerDownloaderMiddleware': 543,
-#}
+DOWNLOADER_MIDDLEWARES = {
+   'rss_crawler.middlewares.RssCrawlerDownloaderMiddleware': 543,
+}
 
 # Enable or disable extensions
 # See https://docs.scrapy.org/en/latest/topics/extensions.html
@@ -62,9 +62,9 @@ ROBOTSTXT_OBEY = True
 
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
-#    'rss_crawler.pipelines.RssCrawlerPipeline': 300,
-#}
+ITEM_PIPELINES = {
+   'rss_crawler.pipelines.RssCrawlerPipeline': 300,
+}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
@@ -88,4 +88,14 @@ ROBOTSTXT_OBEY = True
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 FEED_EXPORT_ENCODING = 'utf-8'
 
+#DUPEFILTER_CLASS = 'scrapy.dupefilters.BaseDupeFilter'
 
+# crawl urls
+JSONS_DIR = 'jsons'
+CATE_INFO = 'https://www.ximalaya.com/revision/category/allCategoryInfo'
+CATE_INFO_STORE = 'xima_categories.json'
+ALBUM_INFO = 'https://www.ximalaya.com/revision/album/v1/simple?'
+TRACK_LIST = 'https://www.ximalaya.com/revision/album/v1/getTracksList?'
+TRACK_INFO = 'https://www.ximalaya.com/revision/track/simple?'
+TRACK_PLAY_URL= 'https://www.ximalaya.com/revision/play/v1/audio?ptype=1&'
+ALBUM_INFO_STORE = 'xima_album.json'
