@@ -17,7 +17,7 @@ def parse_cate_from_file(file):
 
 
 class XimalayaSpider(scrapy.Spider):
-    name = 'ximalaya'
+    name = 'xima_album'
     cate_lv1 = None
     cate_lv2 = None
     cate_lv3 = None

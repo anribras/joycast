@@ -1,1 +1,2361 @@
-{"lv1": {"有声小说": {}, "娱乐": {}, "知识": {}, "生活": {}, "特色": {}}, "lv2": {"有声书": {"pinyin": "youshengshu", "link": "/youshengshu/"}, "音乐": {"pinyin": "yinyue", "link": "/yinyue/"}, "相声评书": {"pinyin": "xiangsheng", "link": "/xiangsheng/"}, "段子": {"pinyin": "duanzi", "link": "/duanzi/"}, "情感生活": {"pinyin": "qinggan", "link": "/qinggan/"}, "娱乐": {"pinyin": "yule", "link": "/yule/"}, "影视": {"pinyin": "yingshi", "link": "/yingshi/"}, "儿童": {"pinyin": "ertong", "link": "/ertong/"}, "历史": {"pinyin": "lishi", "link": "/lishi/"}, "商业财经": {"pinyin": "shangye", "link": "/shangye/"}, "人文": {"pinyin": "renwen", "link": "/renwen/"}, "个人成长": {"pinyin": "gerenchengzhang", "link": "/gerenchengzhang/"}, "IT科技": {"pinyin": "keji", "link": "/keji/"}, "外语": {"pinyin": "waiyu", "link": "/waiyu/"}, "少儿素养": {"pinyin": "ertongjiaoyu", "link": "/ertongjiaoyu/"}, "头条": {"pinyin": "toutiao", "link": "/toutiao/"}, "二次元": {"pinyin": "erciyuan", "link": "/erciyuan/"}, "戏曲": {"pinyin": "xiqu", "link": "/xiqu/"}, "旅游": {"pinyin": "lvyou", "link": "/lvyou/"}, "健康养生": {"pinyin": "jiankang", "link": "/jiankang/"}, "时尚生活": {"pinyin": "shishang", "link": "/shishang/"}, "广播剧": {"pinyin": "guangbojv", "link": "/guangbojv/"}, "粤语": {"pinyin": "yueyu", "link": "/yueyu/"}, "法律课堂": {"pinyin": "falvketang", "link": "/falvketang/"}, "教育培训": {"pinyin": "jiaoyupeixun", "link": "/jiaoyupeixun/"}, "建党百年": {"pinyin": "jiandangbainian", "link": "/jiandangbainian/"}, "品牌之声": {"pinyin": "pinpai", "link": "/pinpai/"}, "汽车": {"pinyin": "qiche", "link": "/qiche/"}, "闽南语": {"pinyin": "minnanyu", "link": "/minnanyu/"}}, "lv3": {"文学": {"pinyin": "wenxue", "link": "/renwen/wenxue/"}, "生活": {"pinyin": "shenghuo", "link": "/youshengshu/shenghuo/"}, "教材": {"pinyin": "reci509", "link": "/waiyu/reci509/"}, "经典": {"pinyin": "jingdian", "link": "/renwen/jingdian/"}, "童书": {"pinyin": "tongshu", "link": "/youshengshu/tongshu/"}, "成长": {"pinyin": "lizhi", "link": "/youshengshu/lizhi/"}, "社科": {"pinyin": "sheke", "link": "/renwen/sheke/"}, "商业": {"pinyin": "shangye", "link": "/youshengshu/shangye/"}, "外文原版": {"pinyin": "yingwenyuanban", "link": "/youshengshu/yingwenyuanban/"}, "期刊杂志": {"pinyin": "qikanzazhi", "link": "/youshengshu/qikanzazhi/"}, "言情": {"pinyin": "reci231", "link": "/youshengshu/reci231/"}, "悬疑": {"pinyin": "xuanyi", "link": "/guangbojv/xuanyi/"}, "都市": {"pinyin": "dushi", "link": "/guangbojv/dushi/"}, "幻想": {"pinyin": "reci233", "link": "/youshengshu/reci233/"}, "武侠": {"pinyin": "wuxia", "link": "/guangbojv/wuxia/"}, "历史": {"pinyin": "lishi", "link": "/guangbojv/lishi/"}, "女生最爱": {"pinyin": "reci346", "link": "/youshengshu/reci346/"}, "男生最爱": {"pinyin": "reci348", "link": "/youshengshu/reci348/"}, "阅文集团": {"pinyin": "reci22", "link": "/youshengshu/reci22/"}, "读客图书": {"pinyin": "reci23", "link": "/youshengshu/reci23/"}, "果麦文化": {"pinyin": "reci24", "link": "/youshengshu/reci24/"}, "中信书院": {"pinyin": "reci646", "link": "/youshengshu/reci646/"}, "博集新媒": {"pinyin": "reci26", "link": "/youshengshu/reci26/"}, "磨铁阅读": {"pinyin": "reci394", "link": "/youshengshu/reci394/"}, "蓝狮子": {"pinyin": "reci419", "link": "/youshengshu/reci419/"}, "华章图书": {"pinyin": "reci650", "link": "/youshengshu/reci650/"}, "大剧必听榜": {"pinyin": "reci1051", "link": "/youshengshu/reci1051/"}, "会员有声小说": {"pinyin": "reci1055", "link": "/youshengshu/reci1055/"}, "爆更小说": {"pinyin": "reci1069", "link": "/youshengshu/reci1069/"}, "文学名著": {"pinyin": "reci1157", "link": "/youshengshu/reci1157/"}, "历史专区": {"pinyin": "reci1158", "link": "/youshengshu/reci1158/"}, "国学经典": {"pinyin": "reci1159", "link": "/youshengshu/reci1159/"}, "小说": {"pinyin": "reci1173", "link": "/youshengshu/reci1173/"}, "言情女生": {"pinyin": "reci1192", "link": "/youshengshu/reci1192/"}, "都市重生": {"pinyin": "reci1194", "link": "/youshengshu/reci1194/"}, "悬疑推理": {"pinyin": "reci1193", "link": "/youshengshu/reci1193/"}, "历史纵横": {"pinyin": "reci1195", "link": "/youshengshu/reci1195/"}, "仙侠幻想": {"pinyin": "reci1196", "link": "/youshengshu/reci1196/"}, "王牌强档": {"pinyin": "reci1264", "link": "/youshengshu/reci1264/"}, "有声漫": {"pinyin": "reci1351", "link": "/youshengshu/reci1351/"}, "出版小说": {"pinyin": "reci1359", "link": "/youshengshu/reci1359/"}, "历史经典": {"pinyin": "reci1370", "link": "/youshengshu/reci1370/"}, "宅家听书指南": {"pinyin": "reci1449", "link": "/youshengshu/reci1449/"}, "可听可看": {"pinyin": "reci1470", "link": "/youshengshu/reci1470/"}, "看小说": {"pinyin": "reci1475", "link": "/youshengshu/reci1475/"}, "新品限免": {"pinyin": "reci1477", "link": "/youshengshu/reci1477/"}, "会员上新": {"pinyin": "reci1518", "link": "/youshengshu/reci1518/"}, "上门女婿": {"pinyin": "reci1519", "link": "/youshengshu/reci1519/"}, "大家都在听": {"pinyin": "reci1521", "link": "/youshengshu/reci1521/"}, "大家都在追": {"pinyin": "reci1529", "link": "/youshengshu/reci1529/"}, "豪门恋情": {"pinyin": "reci1530", "link": "/youshengshu/reci1530/"}, "古风言情": {"pinyin": "reci52", "link": "/guangbojv/reci52/"}, "宫闱宅斗": {"pinyin": "reci1532", "link": "/youshengshu/reci1532/"}, "免费精选": {"pinyin": "reci1533", "link": "/youshengshu/reci1533/"}, "传记": {"pinyin": "reci1709", "link": "/toutiao/reci1709/"}, "畅销书-限时免费": {"pinyin": "reci1693", "link": "/youshengshu/reci1693/"}, "三体科幻": {"pinyin": "reci1697", "link": "/youshengshu/reci1697/"}, "重磅新品": {"pinyin": "reci1698", "link": "/youshengshu/reci1698/"}, "热门小说": {"pinyin": "reci1722", "link": "/youshengshu/reci1722/"}, "流行": {"pinyin": "liuxing", "link": "/yinyue/liuxing/"}, "摇滚": {"pinyin": "yaogun", "link": "/yinyue/yaogun/"}, "民谣": {"pinyin": "minyao", "link": "/yinyue/minyao/"}, "轻音乐": {"pinyin": "qingyinyue", "link": "/yinyue/qingyinyue/"}, "古风": {"pinyin": "gufeng", "link": "/erciyuan/gufeng/"}, "爵士": {"pinyin": "jueshi", "link": "/yinyue/jueshi/"}, "蓝调": {"pinyin": "landiao", "link": "/yinyue/landiao/"}, "乡村": {"pinyin": "xiangcun", "link": "/yinyue/xiangcun/"}, "古典": {"pinyin": "gudian", "link": "/yinyue/gudian/"}, "R&B": {"pinyin": "r", "link": "/yinyue/r/"}, "嘻哈": {"pinyin": "xiha", "link": "/yinyue/xiha/"}, "电音": {"pinyin": "dianyin", "link": "/yinyue/dianyin/"}, "后摇": {"pinyin": "houyao", "link": "/yinyue/houyao/"}, "新世纪": {"pinyin": "xinshiji", "link": "/yinyue/xinshiji/"}, "民乐": {"pinyin": "minyue", "link": "/yinyue/minyue/"}, "声乐": {"pinyin": "shengyue", "link": "/yinyue/shengyue/"}, "拉丁": {"pinyin": "lading", "link": "/yinyue/lading/"}, "金属": {"pinyin": "jinshu", "link": "/yinyue/jinshu/"}, "布鲁斯": {"pinyin": "bulusi", "link": "/yinyue/bulusi/"}, "独立": {"pinyin": "duli", "link": "/yinyue/duli/"}, "灵魂": {"pinyin": "linghun", "link": "/yinyue/linghun/"}, "雷鬼": {"pinyin": "leigui", "link": "/yinyue/leigui/"}, "动漫": {"pinyin": "dongman", "link": "/erciyuan/dongman/"}, "影视原声": {"pinyin": "yingshiyuansheng", "link": "/yinyue/yingshiyuansheng/"}, "朋克": {"pinyin": "punk", "link": "/yinyue/punk/"}, "舞台": {"pinyin": "wutai", "link": "/yinyue/wutai/"}, "儿歌": {"pinyin": "reci337", "link": "/ertong/reci337/"}, "实验音乐": {"pinyin": "shiyanyinyue", "link": "/yinyue/shiyanyinyue/"}, "喜剧": {"pinyin": "xiju", "link": "/yinyue/xiju/"}, "其它": {"pinyin": "qita", "link": "/yinyue/qita/"}, "养生": {"pinyin": "yangsheng", "link": "/yinyue/yangsheng/"}, "红歌": {"pinyin": "hongge", "link": "/yinyue/hongge/"}, "戏曲": {"pinyin": "xiqu", "link": "/yinyue/xiqu/"}, "催眠": {"pinyin": "cuimian", "link": "/jiankang/cuimian/"}, "新歌": {"pinyin": "reci1", "link": "/yinyue/reci1/"}, "经典老歌": {"pinyin": "reci327", "link": "/yinyue/reci327/"}, "翻唱": {"pinyin": "reci125", "link": "/yinyue/reci125/"}, "纯音乐": {"pinyin": "reci310", "link": "/yinyue/reci310/"}, "怀旧": {"pinyin": "reci117", "link": "/yinyue/reci117/"}, "影视": {"pinyin": "reci121", "link": "/yinyue/reci121/"}, "欧美": {"pinyin": "reci507", "link": "/yinyue/reci507/"}, "日韩": {"pinyin": "reci506", "link": "/yinyue/reci506/"}, "创作达人": {"pinyin": "reci320", "link": "/yinyue/reci320/"}, "明星电台": {"pinyin": "reci309", "link": "/yinyue/reci309/"}, "相声": {"pinyin": "xiangsheng", "link": "/xiangsheng/xiangsheng/"}, "评书": {"pinyin": "pingshu", "link": "/xiangsheng/pingshu/"}, "小品": {"pinyin": "xiaopin", "link": "/xiangsheng/xiaopin/"}, "鼓曲": {"pinyin": "guqu", "link": "/xiangsheng/guqu/"}, "郭德纲": {"pinyin": "reci556", "link": "/xiangsheng/reci556/"}, "单田芳": {"pinyin": "reci411", "link": "/xiangsheng/reci411/"}, "德云社": {"pinyin": "reci1087", "link": "/xiangsheng/reci1087/"}, "青曲社": {"pinyin": "reci1088", "link": "/xiangsheng/reci1088/"}, "热门相声": {"pinyin": "reci30", "link": "/xiangsheng/reci30/"}, "单口相声": {"pinyin": "reci549", "link": "/xiangsheng/reci549/"}, "名家评书": {"pinyin": "reci35", "link": "/xiangsheng/reci35/"}, "新锐笑将": {"pinyin": "reci420", "link": "/xiangsheng/reci420/"}, "岳云鹏": {"pinyin": "reci1478", "link": "/xiangsheng/reci1478/"}, "相声江湖": {"pinyin": "reci560", "link": "/xiangsheng/reci560/"}, "青曲茶馆": {"pinyin": "reci561", "link": "/xiangsheng/reci561/"}, "刘兰芳": {"pinyin": "reci582", "link": "/xiangsheng/reci582/"}, "评书连播": {"pinyin": "reci1028", "link": "/xiangsheng/reci1028/"}, "精品相声集": {"pinyin": "reci1091", "link": "/xiangsheng/reci1091/"}, "王玥波": {"pinyin": "reci1125", "link": "/xiangsheng/reci1125/"}, "郭鹤鸣": {"pinyin": "reci1127", "link": "/xiangsheng/reci1127/"}, "武启深": {"pinyin": "reci1128", "link": "/xiangsheng/reci1128/"}, "武宗亮": {"pinyin": "reci1129", "link": "/xiangsheng/reci1129/"}, "郑思杰": {"pinyin": "reci1130", "link": "/xiangsheng/reci1130/"}, "评书精选": {"pinyin": "reci1132", "link": "/xiangsheng/reci1132/"}, "张准": {"pinyin": "reci1153", "link": "/xiangsheng/reci1153/"}, "雍正剑侠图": {"pinyin": "reci1155", "link": "/xiangsheng/reci1155/"}, "脱口秀": {"pinyin": "tuokouxiu", "link": "/keji/tuokouxiu/"}, "下班解乏": {"pinyin": "reci1029", "link": "/duanzi/reci1029/"}, "说奇葩事": {"pinyin": "reci654", "link": "/duanzi/reci654/"}, "无聊必听": {"pinyin": "reci1030", "link": "/duanzi/reci1030/"}, "段子": {"pinyin": "reci652", "link": "/duanzi/reci652/"}, "笑话": {"pinyin": "reci653", "link": "/duanzi/reci653/"}, "搞笑方言": {"pinyin": "reci655", "link": "/duanzi/reci655/"}, "情感": {"pinyin": "qinggan", "link": "/lvyou/qinggan/"}, "故事": {"pinyin": "gushi", "link": "/lvyou/gushi/"}, "美文": {"pinyin": "meiwen", "link": "/qinggan/meiwen/"}, "女性": {"pinyin": "nvxing", "link": "/qinggan/nvxing/"}, "夜话": {"pinyin": "yehua", "link": "/qinggan/yehua/"}, "心理": {"pinyin": "xinli", "link": "/jiankang/xinli/"}, "婚姻": {"pinyin": "hunyin", "link": "/qinggan/hunyin/"}, "星座": {"pinyin": "xingzuo", "link": "/qinggan/xingzuo/"}, "睡前": {"pinyin": "reci46", "link": "/qinggan/reci46/"}, "恋爱": {"pinyin": "lianai", "link": "/guangbojv/lianai/"}, "搞笑": {"pinyin": "gaoxiao", "link": "/yule/gaoxiao/"}, "吐槽": {"pinyin": "tucao", "link": "/yule/tucao/"}, "内涵": {"pinyin": "neihan", "link": "/yule/neihan/"}, "恶搞": {"pinyin": "egao", "link": "/yule/egao/"}, "热辣": {"pinyin": "rela", "link": "/yule/rela/"}, "灵异": {"pinyin": "lingyi", "link": "/yule/lingyi/"}, "涨姿势": {"pinyin": "zhangzishi", "link": "/yule/zhangzishi/"}, "真性情": {"pinyin": "zhenxingqing", "link": "/yule/zhenxingqing/"}, "正能量": {"pinyin": "zhengnengliang", "link": "/yule/zhengnengliang/"}, "纪实": {"pinyin": "jishi", "link": "/keji/jishi/"}, "搞笑段子": {"pinyin": "reci508", "link": "/yule/reci508/"}, "奇闻怪谈": {"pinyin": "reci421", "link": "/yule/reci421/"}, "八卦": {"pinyin": "reci135", "link": "/yule/reci135/"}, "明星粉丝": {"pinyin": "reci136", "link": "/yule/reci136/"}, "综艺": {"pinyin": "reci133", "link": "/yule/reci133/"}, "刑侦探案": {"pinyin": "reci1377", "link": "/yule/reci1377/"}, "原声": {"pinyin": "yuansheng", "link": "/yingshi/yuansheng/"}, "评论": {"pinyin": "pinglun", "link": "/yingshi/pinglun/"}, "观影指南": {"pinyin": "guanyingzhinan", "link": "/yingshi/guanyingzhinan/"}, "配音": {"pinyin": "peiyin", "link": "/yingshi/peiyin/"}, "音乐": {"pinyin": "yinyue", "link": "/lvyou/yinyue/"}, "明星": {"pinyin": "mingxing", "link": "/yingshi/mingxing/"}, "必听影单": {"pinyin": "reci1390", "link": "/yingshi/reci1390/"}, "细说好剧": {"pinyin": "reci72", "link": "/yingshi/reci72/"}, "原声记忆": {"pinyin": "reci71", "link": "/yingshi/reci71/"}, "X分钟听电影": {"pinyin": "reci1536", "link": "/yingshi/reci1536/"}, "儿童文学": {"pinyin": "ertongwenxue", "link": "/ertong/ertongwenxue/"}, "科普百科": {"pinyin": "kepubaike", "link": "/ertong/kepubaike/"}, "少儿音乐": {"pinyin": "shaoeryinyue", "link": "/ertong/shaoeryinyue/"}, "少儿影视": {"pinyin": "shaoeryingshi", "link": "/ertong/shaoeryingshi/"}, "少儿英语": {"pinyin": "xueqianyingyu", "link": "/ertong/xueqianyingyu/"}, "学科教育": {"pinyin": "xuekejiaoyu", "link": "/ertong/xuekejiaoyu/"}, "少儿国学": {"pinyin": "shaoerguoxue", "link": "/ertong/shaoerguoxue/"}, "儿童教育": {"pinyin": "ertongjiaoyu", "link": "/ertong/ertongjiaoyu/"}, "健康": {"pinyin": "jiankang", "link": "/keji/jiankang/"}, "父母教育": {"pinyin": "fumujiaoyu", "link": "/ertong/fumujiaoyu/"}, "少儿艺术": {"pinyin": "shaoeryishu", "link": "/ertong/shaoeryishu/"}, "动画": {"pinyin": "reci336", "link": "/ertong/reci336/"}, "科普": {"pinyin": "kepu", "link": "/keji/kepu/"}, "名著": {"pinyin": "mingzhu", "link": "/renwen/mingzhu/"}, "国学": {"pinyin": "guoxue", "link": "/gerenchengzhang/guoxue/"}, "绘本": {"pinyin": "reci567", "link": "/ertong/reci567/"}, "家教": {"pinyin": "reci154", "link": "/ertong/reci154/"}, "母婴": {"pinyin": "reci149", "link": "/ertong/reci149/"}, "艺术": {"pinyin": "yishu", "link": "/ertongjiaoyu/yishu/"}, "哄睡": {"pinyin": "reci555", "link": "/ertong/reci555/"}, "正史": {"pinyin": "zhengshi", "link": "/lishi/zhengshi/"}, "野史": {"pinyin": "yeshi", "link": "/lishi/yeshi/"}, "军事": {"pinyin": "junshi", "link": "/toutiao/junshi/"}, "战争": {"pinyin": "zhanzheng", "link": "/lishi/zhanzheng/"}, "名人": {"pinyin": "mingren", "link": "/lishi/mingren/"}, "名师": {"pinyin": "mingshi", "link": "/lishi/mingshi/"}, "百家讲坛": {"pinyin": "reci85", "link": "/lishi/reci85/"}, "中国史": {"pinyin": "reci86", "link": "/lishi/reci86/"}, "世界史": {"pinyin": "reci91", "link": "/lishi/reci91/"}, "名人传": {"pinyin": "reci89", "link": "/lishi/reci89/"}, "侃野史": {"pinyin": "reci87", "link": "/lishi/reci87/"}, "春秋战国": {"pinyin": "reci268", "link": "/lishi/reci268/"}, "秦汉": {"pinyin": "reci269", "link": "/lishi/reci269/"}, "三国": {"pinyin": "reci270", "link": "/lishi/reci270/"}, "魏晋": {"pinyin": "reci271", "link": "/lishi/reci271/"}, "隋唐": {"pinyin": "reci272", "link": "/lishi/reci272/"}, "宋元": {"pinyin": "reci273", "link": "/lishi/reci273/"}, "明清": {"pinyin": "reci274", "link": "/lishi/reci274/"}, "民国": {"pinyin": "reci275", "link": "/lishi/reci275/"}, "战争史": {"pinyin": "reci1270", "link": "/lishi/reci1270/"}, "断代史": {"pinyin": "reci1268", "link": "/lishi/reci1268/"}, "商界": {"pinyin": "shangjie", "link": "/shangye/shangjie/"}, "理财": {"pinyin": "licai", "link": "/shangye/licai/"}, "股票": {"pinyin": "gupiao", "link": "/shangye/gupiao/"}, "投资": {"pinyin": "touzi", "link": "/shangye/touzi/"}, "创业": {"pinyin": "chuangye", "link": "/keji/chuangye/"}, "消费": {"pinyin": "xiaofei", "link": "/shangye/xiaofei/"}, "经管": {"pinyin": "jingguan", "link": "/shangye/jingguan/"}, "基金": {"pinyin": "jijin", "link": "/shangye/jijin/"}, "房产": {"pinyin": "fangchan", "link": "/shangye/fangchan/"}, "期货": {"pinyin": "qihuo", "link": "/shangye/qihuo/"}, "宏观": {"pinyin": "hongguan", "link": "/shangye/hongguan/"}, "贵金属": {"pinyin": "guijinshu", "link": "/shangye/guijinshu/"}, "信用卡": {"pinyin": "xinyongka", "link": "/shangye/xinyongka/"}, "信托": {"pinyin": "xintuo", "link": "/shangye/xintuo/"}, "外汇": {"pinyin": "waihui", "link": "/shangye/waihui/"}, "保险": {"pinyin": "baoxian", "link": "/shangye/baoxian/"}, "信贷": {"pinyin": "xindai", "link": "/shangye/xindai/"}, "互联网金融": {"pinyin": "hulianwangjinrong", "link": "/keji/hulianwangjinrong/"}, "风险投资": {"pinyin": "fengxiantouzi", "link": "/shangye/fengxiantouzi/"}, "私募股权投资": {"pinyin": "simuguquantouzi", "link": "/shangye/simuguquantouzi/"}, "债券": {"pinyin": "zhaiquan", "link": "/shangye/zhaiquan/"}, "黄金": {"pinyin": "huangjin", "link": "/shangye/huangjin/"}, "热点资讯": {"pinyin": "reci1037", "link": "/shangye/reci1037/"}, "大咖评论": {"pinyin": "reci192", "link": "/shangye/reci192/"}, "投资理财": {"pinyin": "reci1002", "link": "/shangye/reci1002/"}, "证券市场": {"pinyin": "reci1003", "link": "/shangye/reci1003/"}, "创投创业": {"pinyin": "reci1004", "link": "/shangye/reci1004/"}, "商业经管": {"pinyin": "reci1005", "link": "/shangye/reci1005/"}, "精英图书": {"pinyin": "reci693", "link": "/shangye/reci693/"}, "诗歌": {"pinyin": "shige", "link": "/renwen/shige/"}, "哲学": {"pinyin": "zhexue", "link": "/gerenchengzhang/zhexue/"}, "心灵": {"pinyin": "xinling", "link": "/renwen/xinling/"}, "文化": {"pinyin": "wenhua", "link": "/lvyou/wenhua/"}, "收藏": {"pinyin": "shoucang", "link": "/renwen/shoucang/"}, "儿童": {"pinyin": "ertong", "link": "/renwen/ertong/"}, "诸子": {"pinyin": "zhuzi", "link": "/renwen/zhuzi/"}, "史鉴": {"pinyin": "shijian", "link": "/renwen/shijian/"}, "经典名著": {"pinyin": "reci431", "link": "/renwen/reci431/"}, "读书会": {"pinyin": "reci427", "link": "/renwen/reci427/"}, "诗词国学": {"pinyin": "reci430", "link": "/renwen/reci430/"}, "纪实档案": {"pinyin": "reci433", "link": "/renwen/reci433/"}, "艺术修养": {"pinyin": "reci428", "link": "/renwen/reci428/"}, "名家讲座": {"pinyin": "reci429", "link": "/renwen/reci429/"}, "空中图书馆": {"pinyin": "reci707", "link": "/renwen/reci707/"}, "VIP畅听": {"pinyin": "reci861", "link": "/renwen/reci861/"}, "VIP精选": {"pinyin": "reci1164", "link": "/renwen/reci1164/"}, "国学课堂": {"pinyin": "reci1160", "link": "/renwen/reci1160/"}, "名著导读": {"pinyin": "reci1161", "link": "/renwen/reci1161/"}, "诗词达人": {"pinyin": "reci1162", "link": "/renwen/reci1162/"}, "法律": {"pinyin": "falv", "link": "/gerenchengzhang/falv/"}, "管理": {"pinyin": "guanli", "link": "/gerenchengzhang/guanli/"}, "营销": {"pinyin": "yingxiao", "link": "/gerenchengzhang/yingxiao/"}, "求职": {"pinyin": "qiuzhi", "link": "/gerenchengzhang/qiuzhi/"}, "沟通表达": {"pinyin": "goutongbiaoda", "link": "/gerenchengzhang/goutongbiaoda/"}, "职场": {"pinyin": "zhichang", "link": "/guangbojv/zhichang/"}, "职业技能": {"pinyin": "zhiyejineng", "link": "/keji/zhiyejineng/"}, "考试培训": {"pinyin": "kaoshipeixun", "link": "/gerenchengzhang/kaoshipeixun/"}, "新媒体": {"pinyin": "xinmeiti", "link": "/jiaoyupeixun/xinmeiti/"}, "名人语录": {"pinyin": "mingrenyulu", "link": "/gerenchengzhang/mingrenyulu/"}, "家庭教育": {"pinyin": "jiatingjiaoyu", "link": "/gerenchengzhang/jiatingjiaoyu/"}, "互联网": {"pinyin": "hulianwang", "link": "/keji/hulianwang/"}, "生活百科": {"pinyin": "shenghuobaike", "link": "/keji/shenghuobaike/"}, "语言": {"pinyin": "yuyan", "link": "/gerenchengzhang/yuyan/"}, "人力资源": {"pinyin": "renliziyuan", "link": "/gerenchengzhang/renliziyuan/"}, "人文": {"pinyin": "renwen", "link": "/gerenchengzhang/renwen/"}, "励志": {"pinyin": "lizhi", "link": "/keji/lizhi/"}, "女性成长": {"pinyin": "nvxingchengzhang", "link": "/gerenchengzhang/nvxingchengzhang/"}, "人际沟通": {"pinyin": "reci500", "link": "/gerenchengzhang/reci500/"}, "心理调节": {"pinyin": "reci286", "link": "/gerenchengzhang/reci286/"}, "名人演讲": {"pinyin": "reci289", "link": "/gerenchengzhang/reci289/"}, "高效管理": {"pinyin": "reci416", "link": "/gerenchengzhang/reci416/"}, "畅销书": {"pinyin": "reci1506", "link": "/gerenchengzhang/reci1506/"}, "名企大咖": {"pinyin": "reci578", "link": "/gerenchengzhang/reci578/"}, "成功励志": {"pinyin": "reci291", "link": "/gerenchengzhang/reci291/"}, "科技": {"pinyin": "keji", "link": "/toutiao/keji/"}, "科学探秘": {"pinyin": "tanmi", "link": "/keji/tanmi/"}, "极客": {"pinyin": "jike", "link": "/keji/jike/"}, "区块链": {"pinyin": "qukuailian", "link": "/keji/qukuailian/"}, "科幻": {"pinyin": "kehuan", "link": "/guangbojv/kehuan/"}, "评测": {"pinyin": "pingce", "link": "/qiche/pingce/"}, "5G": {"pinyin": "5g", "link": "/keji/5g/"}, "数码": {"pinyin": "shuma", "link": "/keji/shuma/"}, "程序员": {"pinyin": "chengxuyuan", "link": "/keji/chengxuyuan/"}, "产品": {"pinyin": "chanpinjingli", "link": "/keji/chanpinjingli/"}, "移动互联网": {"pinyin": "yidonghulianwang", "link": "/keji/yidonghulianwang/"}, "大数据": {"pinyin": "dashuju", "link": "/keji/dashuju/"}, "人工智能": {"pinyin": "zhineng", "link": "/keji/zhineng/"}, "智能硬件": {"pinyin": "zhinengyingjian", "link": "/keji/zhinengyingjian/"}, "天文": {"pinyin": "tianwen", "link": "/keji/tianwen/"}, "数学": {"pinyin": "shuxue", "link": "/ertongjiaoyu/shuxue/"}, "物理": {"pinyin": "wuli", "link": "/keji/wuli/"}, "通信": {"pinyin": "tongxin", "link": "/keji/tongxin/"}, "电竞": {"pinyin": "dianjing", "link": "/erciyuan/dianjing/"}, "基因": {"pinyin": "jiyin", "link": "/keji/jiyin/"}, "医疗": {"pinyin": "yiliao", "link": "/keji/yiliao/"}, "人体": {"pinyin": "renti", "link": "/keji/renti/"}, "社会科学": {"pinyin": "shehuikexue", "link": "/keji/shehuikexue/"}, "人物传记": {"pinyin": "renwuzhuanji", "link": "/keji/renwuzhuanji/"}, "世界历史": {"pinyin": "reci1587", "link": "/ertongjiaoyu/reci1587/"}, "中国历史": {"pinyin": "zhongguolishi", "link": "/keji/zhongguolishi/"}, "商战": {"pinyin": "shangzhan", "link": "/keji/shangzhan/"}, "零基础": {"pinyin": "lingjichu", "link": "/keji/lingjichu/"}, "健康常识": {"pinyin": "jiankangchangshi", "link": "/jiankang/jiankangchangshi/"}, "技能": {"pinyin": "jineng", "link": "/keji/jineng/"}, "大咖": {"pinyin": "daka", "link": "/keji/daka/"}, "广播剧": {"pinyin": "guangboju", "link": "/erciyuan/guangboju/"}, "美食": {"pinyin": "meishi", "link": "/shishang/meishi/"}, "宇宙": {"pinyin": "yuzhou", "link": "/keji/yuzhou/"}, "AI": {"pinyin": "ai", "link": "/keji/ai/"}, "新基建": {"pinyin": "xinjijian", "link": "/keji/xinjijian/"}, "物联网": {"pinyin": "wulianwang", "link": "/keji/wulianwang/"}, "机器人": {"pinyin": "jiqiren", "link": "/keji/jiqiren/"}, "天体物理": {"pinyin": "tiantiwuli", "link": "/keji/tiantiwuli/"}, "宇航": {"pinyin": "yuhang", "link": "/keji/yuhang/"}, "科学史": {"pinyin": "kexueshi", "link": "/keji/kexueshi/"}, "科技史": {"pinyin": "kejishi", "link": "/keji/kejishi/"}, "未来局出品": {"pinyin": "reci1723", "link": "/keji/reci1723/"}, "生命": {"pinyin": "reci1507", "link": "/keji/reci1507/"}, "太空漫游": {"pinyin": "reci1513", "link": "/keji/reci1513/"}, "职人充电": {"pinyin": "reci210", "link": "/keji/reci210/"}, "刘慈欣": {"pinyin": "reci1057", "link": "/keji/reci1057/"}, "英语": {"pinyin": "yingyu", "link": "/ertongjiaoyu/yingyu/"}, "日语": {"pinyin": "riyu", "link": "/waiyu/riyu/"}, "韩语": {"pinyin": "hanyu", "link": "/waiyu/hanyu/"}, "法语": {"pinyin": "fayu", "link": "/waiyu/fayu/"}, "泰语": {"pinyin": "taiyu", "link": "/waiyu/taiyu/"}, "德语": {"pinyin": "deyu", "link": "/waiyu/deyu/"}, "俄语": {"pinyin": "eyu", "link": "/waiyu/eyu/"}, "西班牙语": {"pinyin": "xibanyayu", "link": "/waiyu/xibanyayu/"}, "意大利语": {"pinyin": "yidaliyu", "link": "/waiyu/yidaliyu/"}, "葡萄牙语": {"pinyin": "putaoyayu", "link": "/waiyu/putaoyayu/"}, "其他语言": {"pinyin": "qitayuyan", "link": "/waiyu/qitayuyan/"}, "口语": {"pinyin": "reci395", "link": "/waiyu/reci395/"}, "考试": {"pinyin": "reci257", "link": "/waiyu/reci257/"}, "演讲": {"pinyin": "reci143", "link": "/waiyu/reci143/"}, "入门": {"pinyin": "reci141", "link": "/waiyu/reci141/"}, "BBC": {"pinyin": "reci365", "link": "/waiyu/reci365/"}, "畅听会员": {"pinyin": "reci296", "link": "/waiyu/reci296/"}, "付费专区": {"pinyin": "reci801", "link": "/waiyu/reci801/"}, "语文": {"pinyin": "yuwen", "link": "/ertongjiaoyu/yuwen/"}, "自然科普": {"pinyin": "zirankepu", "link": "/ertongjiaoyu/zirankepu/"}, "地理": {"pinyin": "dili", "link": "/lvyou/dili/"}, "科学": {"pinyin": "kexue", "link": "/ertongjiaoyu/kexue/"}, "能力素养": {"pinyin": "nenglisuyang", "link": "/ertongjiaoyu/nenglisuyang/"}, "教材教辅": {"pinyin": "reci1557", "link": "/ertongjiaoyu/reci1557/"}, "美术": {"pinyin": "reci1546", "link": "/ertongjiaoyu/reci1546/"}, "益智棋类": {"pinyin": "reci1560", "link": "/ertongjiaoyu/reci1560/"}, "创意手工": {"pinyin": "reci1570", "link": "/ertongjiaoyu/reci1570/"}, "文学鉴赏": {"pinyin": "reci1540", "link": "/ertongjiaoyu/reci1540/"}, "课外读物": {"pinyin": "reci1542", "link": "/ertongjiaoyu/reci1542/"}, "自然地理": {"pinyin": "reci1554", "link": "/ertongjiaoyu/reci1554/"}, "天文物理": {"pinyin": "reci1569", "link": "/ertongjiaoyu/reci1569/"}, "军事科技": {"pinyin": "reci1556", "link": "/ertongjiaoyu/reci1556/"}, "少儿编程": {"pinyin": "reci1568", "link": "/ertongjiaoyu/reci1568/"}, "情商养成": {"pinyin": "reci1558", "link": "/ertongjiaoyu/reci1558/"}, "安全教育": {"pinyin": "reci1559", "link": "/ertongjiaoyu/reci1559/"}, "艺术启蒙": {"pinyin": "reci1566", "link": "/ertongjiaoyu/reci1566/"}, "表演主持": {"pinyin": "reci1580", "link": "/ertongjiaoyu/reci1580/"}, "社会": {"pinyin": "shehui", "link": "/toutiao/shehui/"}, "民生": {"pinyin": "minsheng", "link": "/toutiao/minsheng/"}, "国内": {"pinyin": "guonei", "link": "/toutiao/guonei/"}, "国际": {"pinyin": "guoji", "link": "/toutiao/guoji/"}, "财经": {"pinyin": "caijing", "link": "/toutiao/caijing/"}, "娱乐": {"pinyin": "yule", "link": "/toutiao/yule/"}, "体育": {"pinyin": "tiyu", "link": "/toutiao/tiyu/"}, "听两会": {"pinyin": "reci490", "link": "/jiandangbainian/reci490/"}, "体育资讯": {"pinyin": "reci1707", "link": "/toutiao/reci1707/"}, "体育播客": {"pinyin": "reci1708", "link": "/toutiao/reci1708/"}, "足球": {"pinyin": "reci1710", "link": "/toutiao/reci1710/"}, "篮球": {"pinyin": "reci1711", "link": "/toutiao/reci1711/"}, "俱乐部电台": {"pinyin": "reci1712", "link": "/toutiao/reci1712/"}, "上新推荐": {"pinyin": "reci1713", "link": "/toutiao/reci1713/"}, "有声漫画": {"pinyin": "reci1357", "link": "/guangbojv/reci1357/"}, "ACG音乐": {"pinyin": "acgyinyue", "link": "/erciyuan/acgyinyue/"}, "同人文": {"pinyin": "tongrenwen", "link": "/erciyuan/tongrenwen/"}, "游戏": {"pinyin": "youxi", "link": "/guangbojv/youxi/"}, "声优": {"pinyin": "shengyou", "link": "/erciyuan/shengyou/"}, "英雄联盟S10": {"pinyin": "reci1681", "link": "/erciyuan/reci1681/"}, "游戏视频": {"pinyin": "reci315", "link": "/erciyuan/reci315/"}, "精选": {"pinyin": "reci178", "link": "/erciyuan/reci178/"}, "电台": {"pinyin": "reci1394", "link": "/erciyuan/reci1394/"}, "我的世界": {"pinyin": "reci1522", "link": "/erciyuan/reci1522/"}, "ACFUN": {"pinyin": "reci1534", "link": "/erciyuan/reci1534/"}, "京剧": {"pinyin": "jingju", "link": "/xiqu/jingju/"}, "黄梅戏": {"pinyin": "huangmeixi", "link": "/xiqu/huangmeixi/"}, "越剧": {"pinyin": "yueju", "link": "/xiqu/yueju/"}, "昆曲": {"pinyin": "kunqu", "link": "/xiqu/kunqu/"}, "地方戏": {"pinyin": "difangxi", "link": "/xiqu/difangxi/"}, "豫剧": {"pinyin": "yuju", "link": "/xiqu/yuju/"}, "秦腔": {"pinyin": "qinqiang", "link": "/xiqu/qinqiang/"}, "评剧": {"pinyin": "pingju", "link": "/xiqu/pingju/"}, "粤剧": {"pinyin": "yuejv", "link": "/xiqu/yuejv/"}, "沪剧": {"pinyin": "huju", "link": "/xiqu/huju/"}, "二人转": {"pinyin": "errenzhuan", "link": "/xiqu/errenzhuan/"}, "河南坠子": {"pinyin": "henanzhuizi", "link": "/xiqu/henanzhuizi/"}, "评弹": {"pinyin": "pingtan", "link": "/xiqu/pingtan/"}, "晋剧": {"pinyin": "jinju", "link": "/xiqu/jinju/"}, "蒲剧": {"pinyin": "puju", "link": "/xiqu/puju/"}, "吕剧": {"pinyin": "lvju", "link": "/xiqu/lvju/"}, "滑稽戏": {"pinyin": "huajixi", "link": "/xiqu/huajixi/"}, "戏曲大全": {"pinyin": "reci169", "link": "/xiqu/reci169/"}, "华美京剧": {"pinyin": "reci61", "link": "/xiqu/reci61/"}, "温婉越剧": {"pinyin": "reci63", "link": "/xiqu/reci63/"}, "明快黄梅": {"pinyin": "reci62", "link": "/xiqu/reci62/"}, "多彩沪剧": {"pinyin": "reci201", "link": "/xiqu/reci201/"}, "典雅昆曲": {"pinyin": "reci168", "link": "/xiqu/reci168/"}, "嬉笑怒骂二人转": {"pinyin": "reci202", "link": "/xiqu/reci202/"}, "攻略": {"pinyin": "gonglue", "link": "/lvyou/gonglue/"}, "户外": {"pinyin": "huwai", "link": "/lvyou/huwai/"}, "走遍中国": {"pinyin": "reci174", "link": "/lvyou/reci174/"}, "环游世界": {"pinyin": "reci1332", "link": "/lvyou/reci1332/"}, "人文地理": {"pinyin": "reci363", "link": "/lvyou/reci363/"}, "游览攻略": {"pinyin": "reci1337", "link": "/lvyou/reci1337/"}, "户外玩家": {"pinyin": "reci175", "link": "/lvyou/reci175/"}, "旅途心情": {"pinyin": "reci176", "link": "/lvyou/reci176/"}, "中医": {"pinyin": "zhongyi", "link": "/jiankang/zhongyi/"}, "两性健康": {"pinyin": "liangxingjiankang", "link": "/jiankang/liangxingjiankang/"}, "营养": {"pinyin": "yingyang", "link": "/jiankang/yingyang/"}, "疾病预防": {"pinyin": "jibingyufang", "link": "/jiankang/jibingyufang/"}, "艾灸": {"pinyin": "aijiu", "link": "/jiankang/aijiu/"}, "针灸": {"pinyin": "zhenjiu", "link": "/jiankang/zhenjiu/"}, "偏方": {"pinyin": "pianfang", "link": "/jiankang/pianfang/"}, "黄帝内经": {"pinyin": "huangdineijing", "link": "/jiankang/huangdineijing/"}, "吃出健康": {"pinyin": "reci160", "link": "/jiankang/reci160/"}, "我要减肥": {"pinyin": "reci1311", "link": "/jiankang/reci1311/"}, "十月妈咪": {"pinyin": "reci1313", "link": "/jiankang/reci1313/"}, "两性奥秘": {"pinyin": "reci1312", "link": "/jiankang/reci1312/"}, "运动健身": {"pinyin": "reci158", "link": "/jiankang/reci158/"}, "中医养生": {"pinyin": "reci1314", "link": "/jiankang/reci1314/"}, "心灵解压": {"pinyin": "reci1315", "link": "/jiankang/reci1315/"}, "古法艾灸": {"pinyin": "reci161", "link": "/jiankang/reci161/"}, "轻松入睡": {"pinyin": "reci1165", "link": "/jiankang/reci1165/"}, "健康宝宝": {"pinyin": "reci487", "link": "/jiankang/reci487/"}, "美丽驻颜": {"pinyin": "reci157", "link": "/jiankang/reci157/"}, "生活家": {"pinyin": "shenghuojia", "link": "/shishang/shenghuojia/"}, "家居": {"pinyin": "jiaju", "link": "/shishang/jiaju/"}, "美容": {"pinyin": "meirong", "link": "/shishang/meirong/"}, "减肥塑形": {"pinyin": "jianfeisuxing", "link": "/shishang/jianfeisuxing/"}, "达人": {"pinyin": "daren", "link": "/shishang/daren/"}, "运动": {"pinyin": "yundong", "link": "/shishang/yundong/"}, "时尚": {"pinyin": "shishang", "link": "/shishang/shishang/"}, "萌宠": {"pinyin": "mengchong", "link": "/shishang/mengchong/"}, "摄影": {"pinyin": "sheying", "link": "/shishang/sheying/"}, "珠宝腕表": {"pinyin": "zhubaowanbiao", "link": "/shishang/zhubaowanbiao/"}, "茶酒": {"pinyin": "chajiu", "link": "/shishang/chajiu/"}, "芳疗": {"pinyin": "fangliao", "link": "/shishang/fangliao/"}, "减肥瘦身": {"pinyin": "reci1317", "link": "/shishang/reci1317/"}, "护肤美妆": {"pinyin": "reci1319", "link": "/shishang/reci1319/"}, "找点美食": {"pinyin": "reci1318", "link": "/shishang/reci1318/"}, "治愈萌宠": {"pinyin": "reci1316", "link": "/shishang/reci1316/"}, "来点好物": {"pinyin": "reci1320", "link": "/shishang/reci1320/"}, "生活美学家": {"pinyin": "reci366", "link": "/shishang/reci366/"}, "架空": {"pinyin": "jiakong", "link": "/guangbojv/jiakong/"}, "校园": {"pinyin": "xiaoyuan", "link": "/guangbojv/xiaoyuan/"}, "仙侠": {"pinyin": "xianxia", "link": "/guangbojv/xianxia/"}, "奇幻": {"pinyin": "qihuan", "link": "/guangbojv/qihuan/"}, "玄幻": {"pinyin": "xuanhuan", "link": "/guangbojv/xuanhuan/"}, "推理": {"pinyin": "tuili", "link": "/guangbojv/tuili/"}, "爆笑": {"pinyin": "baoxiao", "link": "/guangbojv/baoxiao/"}, "脑洞": {"pinyin": "naodong", "link": "/guangbojv/naodong/"}, "画风清奇": {"pinyin": "huafengqingqi", "link": "/guangbojv/huafengqingqi/"}, "虚拟偶像": {"pinyin": "xuniouxiang", "link": "/guangbojv/xuniouxiang/"}, "玛丽苏": {"pinyin": "malisu", "link": "/guangbojv/malisu/"}, "日漫": {"pinyin": "riman", "link": "/guangbojv/riman/"}, "霸道总裁": {"pinyin": "badaozongcai", "link": "/guangbojv/badaozongcai/"}, "萌系": {"pinyin": "mengxi", "link": "/guangbojv/mengxi/"}, "民间故事": {"pinyin": "minjiangushi", "link": "/guangbojv/minjiangushi/"}, "现代言情": {"pinyin": "reci546", "link": "/guangbojv/reci546/"}, "全年龄": {"pinyin": "reci54", "link": "/guangbojv/reci54/"}, "月上新周播剧": {"pinyin": "reci1198", "link": "/guangbojv/reci1198/"}, "会员专区": {"pinyin": "reci1664", "link": "/guangbojv/reci1664/"}, "心动剧场": {"pinyin": "reci1660", "link": "/guangbojv/reci1660/"}, "国风剧场": {"pinyin": "reci1661", "link": "/guangbojv/reci1661/"}, "尖声剧场": {"pinyin": "reci1662", "link": "/guangbojv/reci1662/"}, "爆笑粤语": {"pinyin": "reci612", "link": "/yueyu/reci612/"}, "亲子故事": {"pinyin": "reci609", "link": "/yueyu/reci609/"}, "新生活": {"pinyin": "reci992", "link": "/yueyu/reci992/"}, "都市情感": {"pinyin": "reci613", "link": "/yueyu/reci613/"}, "粤文化": {"pinyin": "reci610", "link": "/yueyu/reci610/"}, "粤语评书": {"pinyin": "reci608", "link": "/yueyu/reci608/"}, "粤语金曲": {"pinyin": "reci611", "link": "/yueyu/reci611/"}, "普法": {"pinyin": "reci747", "link": "/falvketang/reci747/"}, "融资投资": {"pinyin": "reci748", "link": "/falvketang/reci748/"}, "民法生活": {"pinyin": "reci749", "link": "/falvketang/reci749/"}, "法考": {"pinyin": "reci750", "link": "/falvketang/reci750/"}, "公司": {"pinyin": "reci751", "link": "/falvketang/reci751/"}, "诉讼": {"pinyin": "reci752", "link": "/falvketang/reci752/"}, "付费精品": {"pinyin": "reci780", "link": "/falvketang/reci780/"}, "考研": {"pinyin": "kaoyan", "link": "/jiaoyupeixun/kaoyan/"}, "公考": {"pinyin": "gongkao", "link": "/jiaoyupeixun/gongkao/"}, "公开课": {"pinyin": "gongkaike", "link": "/jiaoyupeixun/gongkaike/"}, "主播培训": {"pinyin": "zhubopeixun", "link": "/jiaoyupeixun/zhubopeixun/"}, "电商": {"pinyin": "dianshang", "link": "/jiaoyupeixun/dianshang/"}, "留学": {"pinyin": "liuxue", "link": "/jiaoyupeixun/liuxue/"}, "教师资格": {"pinyin": "jiaoshizige", "link": "/jiaoyupeixun/jiaoshizige/"}, "财会金融": {"pinyin": "caihuijinrong", "link": "/jiaoyupeixun/caihuijinrong/"}, "求职准备": {"pinyin": "qiuzhizhunbei", "link": "/jiaoyupeixun/qiuzhizhunbei/"}, "时间管理": {"pinyin": "shijianguanli", "link": "/jiaoyupeixun/shijianguanli/"}, "互联网IT": {"pinyin": "hulianwangit", "link": "/jiaoyupeixun/hulianwangit/"}, "学历考试": {"pinyin": "reci102", "link": "/jiaoyupeixun/reci102/"}, "职业考试": {"pinyin": "reci108", "link": "/jiaoyupeixun/reci108/"}, "大学慕课": {"pinyin": "reci107", "link": "/jiaoyupeixun/reci107/"}, "十九大": {"pinyin": "reci479", "link": "/jiandangbainian/reci479/"}, "学法规": {"pinyin": "reci486", "link": "/jiandangbainian/reci486/"}, "发展历程": {"pinyin": "reci485", "link": "/jiandangbainian/reci485/"}, "党课随身听": {"pinyin": "reci513", "link": "/jiandangbainian/reci513/"}, "征程": {"pinyin": "reci516", "link": "/jiandangbainian/reci516/"}, "新思想": {"pinyin": "reci700", "link": "/jiandangbainian/reci700/"}, "榜样故事": {"pinyin": "reci703", "link": "/jiandangbainian/reci703/"}, "大企业": {"pinyin": "reci523", "link": "/pinpai/reci523/"}, "汽车": {"pinyin": "reci524", "link": "/pinpai/reci524/"}, "IT企业": {"pinyin": "reci525", "link": "/pinpai/reci525/"}, "政务": {"pinyin": "reci526", "link": "/pinpai/reci526/"}, "教育培训": {"pinyin": "reci527", "link": "/pinpai/reci527/"}, "文化机构": {"pinyin": "reci528", "link": "/pinpai/reci528/"}, "媒体": {"pinyin": "reci529", "link": "/pinpai/reci529/"}, "金融": {"pinyin": "reci530", "link": "/pinpai/reci530/"}, "其他": {"pinyin": "reci531", "link": "/pinpai/reci531/"}, "开讲了": {"pinyin": "reci541", "link": "/pinpai/reci541/"}, "都市汇": {"pinyin": "reci542", "link": "/pinpai/reci542/"}, "趣生活": {"pinyin": "reci543", "link": "/pinpai/reci543/"}, "新技能": {"pinyin": "reci544", "link": "/pinpai/reci544/"}, "育儿园": {"pinyin": "reci545", "link": "/pinpai/reci545/"}, "购车": {"pinyin": "gouche", "link": "/qiche/gouche/"}, "用车": {"pinyin": "yongche", "link": "/qiche/yongche/"}, "说车": {"pinyin": "shuoche", "link": "/qiche/shuoche/"}, "维修改装": {"pinyin": "weixiugaizhuang", "link": "/qiche/weixiugaizhuang/"}, "车闻趣事": {"pinyin": "chewenqushi", "link": "/qiche/chewenqushi/"}, "品牌历史": {"pinyin": "pinpailishi", "link": "/qiche/pinpailishi/"}, "摩托车": {"pinyin": "motuoche", "link": "/qiche/motuoche/"}, "购车选车": {"pinyin": "reci78", "link": "/qiche/reci78/"}, "玩车": {"pinyin": "reci79", "link": "/qiche/reci79/"}, "热点汇": {"pinyin": "reci80", "link": "/qiche/reci80/"}, "汽车脱口秀": {"pinyin": "reci81", "link": "/qiche/reci81/"}, "时尚点": {"pinyin": "reci1388", "link": "/minnanyu/reci1388/"}, "养生堂": {"pinyin": "reci1384", "link": "/minnanyu/reci1384/"}, "厝边头尾": {"pinyin": "reci1385", "link": "/minnanyu/reci1385/"}, "听戏台": {"pinyin": "reci1383", "link": "/minnanyu/reci1383/"}, "财经之道": {"pinyin": "reci1389", "link": "/minnanyu/reci1389/"}, "两岸史话": {"pinyin": "reci1380", "link": "/minnanyu/reci1380/"}, "咱厝的歌": {"pinyin": "reci1382", "link": "/minnanyu/reci1382/"}, "文化风情": {"pinyin": "reci1379", "link": "/minnanyu/reci1379/"}, "漫生活": {"pinyin": "reci1386", "link": "/minnanyu/reci1386/"}, "闽南有声": {"pinyin": "reci1381", "link": "/minnanyu/reci1381/"}, "宝贝成长": {"pinyin": "reci1387", "link": "/minnanyu/reci1387/"}}}
+{
+  "lv1": {
+    "有声小说": {},
+    "娱乐": {},
+    "知识": {},
+    "生活": {},
+    "特色": {}
+  },
+  "lv2": {
+    "有声书": {
+      "pinyin": "youshengshu",
+      "link": "/youshengshu/"
+    },
+    "音乐": {
+      "pinyin": "yinyue",
+      "link": "/yinyue/"
+    },
+    "相声评书": {
+      "pinyin": "xiangsheng",
+      "link": "/xiangsheng/"
+    },
+    "段子": {
+      "pinyin": "duanzi",
+      "link": "/duanzi/"
+    },
+    "情感生活": {
+      "pinyin": "qinggan",
+      "link": "/qinggan/"
+    },
+    "娱乐": {
+      "pinyin": "yule",
+      "link": "/yule/"
+    },
+    "影视": {
+      "pinyin": "yingshi",
+      "link": "/yingshi/"
+    },
+    "儿童": {
+      "pinyin": "ertong",
+      "link": "/ertong/"
+    },
+    "历史": {
+      "pinyin": "lishi",
+      "link": "/lishi/"
+    },
+    "商业财经": {
+      "pinyin": "shangye",
+      "link": "/shangye/"
+    },
+    "人文": {
+      "pinyin": "renwen",
+      "link": "/renwen/"
+    },
+    "个人成长": {
+      "pinyin": "gerenchengzhang",
+      "link": "/gerenchengzhang/"
+    },
+    "IT科技": {
+      "pinyin": "keji",
+      "link": "/keji/"
+    },
+    "外语": {
+      "pinyin": "waiyu",
+      "link": "/waiyu/"
+    },
+    "少儿素养": {
+      "pinyin": "ertongjiaoyu",
+      "link": "/ertongjiaoyu/"
+    },
+    "头条": {
+      "pinyin": "toutiao",
+      "link": "/toutiao/"
+    },
+    "二次元": {
+      "pinyin": "erciyuan",
+      "link": "/erciyuan/"
+    },
+    "戏曲": {
+      "pinyin": "xiqu",
+      "link": "/xiqu/"
+    },
+    "旅游": {
+      "pinyin": "lvyou",
+      "link": "/lvyou/"
+    },
+    "健康养生": {
+      "pinyin": "jiankang",
+      "link": "/jiankang/"
+    },
+    "时尚生活": {
+      "pinyin": "shishang",
+      "link": "/shishang/"
+    },
+    "广播剧": {
+      "pinyin": "guangbojv",
+      "link": "/guangbojv/"
+    },
+    "粤语": {
+      "pinyin": "yueyu",
+      "link": "/yueyu/"
+    },
+    "法律课堂": {
+      "pinyin": "falvketang",
+      "link": "/falvketang/"
+    },
+    "教育培训": {
+      "pinyin": "jiaoyupeixun",
+      "link": "/jiaoyupeixun/"
+    },
+    "建党百年": {
+      "pinyin": "jiandangbainian",
+      "link": "/jiandangbainian/"
+    },
+    "品牌之声": {
+      "pinyin": "pinpai",
+      "link": "/pinpai/"
+    },
+    "汽车": {
+      "pinyin": "qiche",
+      "link": "/qiche/"
+    },
+    "闽南语": {
+      "pinyin": "minnanyu",
+      "link": "/minnanyu/"
+    }
+  },
+  "lv3": {
+    "文学": {
+      "pinyin": "wenxue",
+      "link": "/renwen/wenxue/"
+    },
+    "生活": {
+      "pinyin": "shenghuo",
+      "link": "/youshengshu/shenghuo/"
+    },
+    "教材": {
+      "pinyin": "reci509",
+      "link": "/waiyu/reci509/"
+    },
+    "经典": {
+      "pinyin": "jingdian",
+      "link": "/renwen/jingdian/"
+    },
+    "童书": {
+      "pinyin": "tongshu",
+      "link": "/youshengshu/tongshu/"
+    },
+    "成长": {
+      "pinyin": "lizhi",
+      "link": "/youshengshu/lizhi/"
+    },
+    "社科": {
+      "pinyin": "sheke",
+      "link": "/renwen/sheke/"
+    },
+    "商业": {
+      "pinyin": "shangye",
+      "link": "/youshengshu/shangye/"
+    },
+    "外文原版": {
+      "pinyin": "yingwenyuanban",
+      "link": "/youshengshu/yingwenyuanban/"
+    },
+    "期刊杂志": {
+      "pinyin": "qikanzazhi",
+      "link": "/youshengshu/qikanzazhi/"
+    },
+    "言情": {
+      "pinyin": "reci231",
+      "link": "/youshengshu/reci231/"
+    },
+    "悬疑": {
+      "pinyin": "xuanyi",
+      "link": "/guangbojv/xuanyi/"
+    },
+    "都市": {
+      "pinyin": "dushi",
+      "link": "/guangbojv/dushi/"
+    },
+    "幻想": {
+      "pinyin": "reci233",
+      "link": "/youshengshu/reci233/"
+    },
+    "武侠": {
+      "pinyin": "wuxia",
+      "link": "/guangbojv/wuxia/"
+    },
+    "历史": {
+      "pinyin": "lishi",
+      "link": "/guangbojv/lishi/"
+    },
+    "女生最爱": {
+      "pinyin": "reci346",
+      "link": "/youshengshu/reci346/"
+    },
+    "男生最爱": {
+      "pinyin": "reci348",
+      "link": "/youshengshu/reci348/"
+    },
+    "阅文集团": {
+      "pinyin": "reci22",
+      "link": "/youshengshu/reci22/"
+    },
+    "读客图书": {
+      "pinyin": "reci23",
+      "link": "/youshengshu/reci23/"
+    },
+    "果麦文化": {
+      "pinyin": "reci24",
+      "link": "/youshengshu/reci24/"
+    },
+    "中信书院": {
+      "pinyin": "reci646",
+      "link": "/youshengshu/reci646/"
+    },
+    "博集新媒": {
+      "pinyin": "reci26",
+      "link": "/youshengshu/reci26/"
+    },
+    "磨铁阅读": {
+      "pinyin": "reci394",
+      "link": "/youshengshu/reci394/"
+    },
+    "蓝狮子": {
+      "pinyin": "reci419",
+      "link": "/youshengshu/reci419/"
+    },
+    "华章图书": {
+      "pinyin": "reci650",
+      "link": "/youshengshu/reci650/"
+    },
+    "大剧必听榜": {
+      "pinyin": "reci1051",
+      "link": "/youshengshu/reci1051/"
+    },
+    "会员有声小说": {
+      "pinyin": "reci1055",
+      "link": "/youshengshu/reci1055/"
+    },
+    "爆更小说": {
+      "pinyin": "reci1069",
+      "link": "/youshengshu/reci1069/"
+    },
+    "文学名著": {
+      "pinyin": "reci1157",
+      "link": "/youshengshu/reci1157/"
+    },
+    "历史专区": {
+      "pinyin": "reci1158",
+      "link": "/youshengshu/reci1158/"
+    },
+    "国学经典": {
+      "pinyin": "reci1159",
+      "link": "/youshengshu/reci1159/"
+    },
+    "小说": {
+      "pinyin": "reci1173",
+      "link": "/youshengshu/reci1173/"
+    },
+    "言情女生": {
+      "pinyin": "reci1192",
+      "link": "/youshengshu/reci1192/"
+    },
+    "都市重生": {
+      "pinyin": "reci1194",
+      "link": "/youshengshu/reci1194/"
+    },
+    "悬疑推理": {
+      "pinyin": "reci1193",
+      "link": "/youshengshu/reci1193/"
+    },
+    "历史纵横": {
+      "pinyin": "reci1195",
+      "link": "/youshengshu/reci1195/"
+    },
+    "仙侠幻想": {
+      "pinyin": "reci1196",
+      "link": "/youshengshu/reci1196/"
+    },
+    "王牌强档": {
+      "pinyin": "reci1264",
+      "link": "/youshengshu/reci1264/"
+    },
+    "有声漫": {
+      "pinyin": "reci1351",
+      "link": "/youshengshu/reci1351/"
+    },
+    "出版小说": {
+      "pinyin": "reci1359",
+      "link": "/youshengshu/reci1359/"
+    },
+    "历史经典": {
+      "pinyin": "reci1370",
+      "link": "/youshengshu/reci1370/"
+    },
+    "宅家听书指南": {
+      "pinyin": "reci1449",
+      "link": "/youshengshu/reci1449/"
+    },
+    "可听可看": {
+      "pinyin": "reci1470",
+      "link": "/youshengshu/reci1470/"
+    },
+    "看小说": {
+      "pinyin": "reci1475",
+      "link": "/youshengshu/reci1475/"
+    },
+    "新品限免": {
+      "pinyin": "reci1477",
+      "link": "/youshengshu/reci1477/"
+    },
+    "会员上新": {
+      "pinyin": "reci1518",
+      "link": "/youshengshu/reci1518/"
+    },
+    "上门女婿": {
+      "pinyin": "reci1519",
+      "link": "/youshengshu/reci1519/"
+    },
+    "大家都在听": {
+      "pinyin": "reci1521",
+      "link": "/youshengshu/reci1521/"
+    },
+    "大家都在追": {
+      "pinyin": "reci1529",
+      "link": "/youshengshu/reci1529/"
+    },
+    "豪门恋情": {
+      "pinyin": "reci1530",
+      "link": "/youshengshu/reci1530/"
+    },
+    "古风言情": {
+      "pinyin": "reci52",
+      "link": "/guangbojv/reci52/"
+    },
+    "宫闱宅斗": {
+      "pinyin": "reci1532",
+      "link": "/youshengshu/reci1532/"
+    },
+    "免费精选": {
+      "pinyin": "reci1533",
+      "link": "/youshengshu/reci1533/"
+    },
+    "传记": {
+      "pinyin": "reci1709",
+      "link": "/toutiao/reci1709/"
+    },
+    "畅销书-限时免费": {
+      "pinyin": "reci1693",
+      "link": "/youshengshu/reci1693/"
+    },
+    "三体科幻": {
+      "pinyin": "reci1697",
+      "link": "/youshengshu/reci1697/"
+    },
+    "重磅新品": {
+      "pinyin": "reci1698",
+      "link": "/youshengshu/reci1698/"
+    },
+    "热门小说": {
+      "pinyin": "reci1722",
+      "link": "/youshengshu/reci1722/"
+    },
+    "流行": {
+      "pinyin": "liuxing",
+      "link": "/yinyue/liuxing/"
+    },
+    "摇滚": {
+      "pinyin": "yaogun",
+      "link": "/yinyue/yaogun/"
+    },
+    "民谣": {
+      "pinyin": "minyao",
+      "link": "/yinyue/minyao/"
+    },
+    "轻音乐": {
+      "pinyin": "qingyinyue",
+      "link": "/yinyue/qingyinyue/"
+    },
+    "古风": {
+      "pinyin": "gufeng",
+      "link": "/erciyuan/gufeng/"
+    },
+    "爵士": {
+      "pinyin": "jueshi",
+      "link": "/yinyue/jueshi/"
+    },
+    "蓝调": {
+      "pinyin": "landiao",
+      "link": "/yinyue/landiao/"
+    },
+    "乡村": {
+      "pinyin": "xiangcun",
+      "link": "/yinyue/xiangcun/"
+    },
+    "古典": {
+      "pinyin": "gudian",
+      "link": "/yinyue/gudian/"
+    },
+    "R&B": {
+      "pinyin": "r",
+      "link": "/yinyue/r/"
+    },
+    "嘻哈": {
+      "pinyin": "xiha",
+      "link": "/yinyue/xiha/"
+    },
+    "电音": {
+      "pinyin": "dianyin",
+      "link": "/yinyue/dianyin/"
+    },
+    "后摇": {
+      "pinyin": "houyao",
+      "link": "/yinyue/houyao/"
+    },
+    "新世纪": {
+      "pinyin": "xinshiji",
+      "link": "/yinyue/xinshiji/"
+    },
+    "民乐": {
+      "pinyin": "minyue",
+      "link": "/yinyue/minyue/"
+    },
+    "声乐": {
+      "pinyin": "shengyue",
+      "link": "/yinyue/shengyue/"
+    },
+    "拉丁": {
+      "pinyin": "lading",
+      "link": "/yinyue/lading/"
+    },
+    "金属": {
+      "pinyin": "jinshu",
+      "link": "/yinyue/jinshu/"
+    },
+    "布鲁斯": {
+      "pinyin": "bulusi",
+      "link": "/yinyue/bulusi/"
+    },
+    "独立": {
+      "pinyin": "duli",
+      "link": "/yinyue/duli/"
+    },
+    "灵魂": {
+      "pinyin": "linghun",
+      "link": "/yinyue/linghun/"
+    },
+    "雷鬼": {
+      "pinyin": "leigui",
+      "link": "/yinyue/leigui/"
+    },
+    "动漫": {
+      "pinyin": "dongman",
+      "link": "/erciyuan/dongman/"
+    },
+    "影视原声": {
+      "pinyin": "yingshiyuansheng",
+      "link": "/yinyue/yingshiyuansheng/"
+    },
+    "朋克": {
+      "pinyin": "punk",
+      "link": "/yinyue/punk/"
+    },
+    "舞台": {
+      "pinyin": "wutai",
+      "link": "/yinyue/wutai/"
+    },
+    "儿歌": {
+      "pinyin": "reci337",
+      "link": "/ertong/reci337/"
+    },
+    "实验音乐": {
+      "pinyin": "shiyanyinyue",
+      "link": "/yinyue/shiyanyinyue/"
+    },
+    "喜剧": {
+      "pinyin": "xiju",
+      "link": "/yinyue/xiju/"
+    },
+    "其它": {
+      "pinyin": "qita",
+      "link": "/yinyue/qita/"
+    },
+    "养生": {
+      "pinyin": "yangsheng",
+      "link": "/yinyue/yangsheng/"
+    },
+    "红歌": {
+      "pinyin": "hongge",
+      "link": "/yinyue/hongge/"
+    },
+    "戏曲": {
+      "pinyin": "xiqu",
+      "link": "/yinyue/xiqu/"
+    },
+    "催眠": {
+      "pinyin": "cuimian",
+      "link": "/jiankang/cuimian/"
+    },
+    "新歌": {
+      "pinyin": "reci1",
+      "link": "/yinyue/reci1/"
+    },
+    "经典老歌": {
+      "pinyin": "reci327",
+      "link": "/yinyue/reci327/"
+    },
+    "翻唱": {
+      "pinyin": "reci125",
+      "link": "/yinyue/reci125/"
+    },
+    "纯音乐": {
+      "pinyin": "reci310",
+      "link": "/yinyue/reci310/"
+    },
+    "怀旧": {
+      "pinyin": "reci117",
+      "link": "/yinyue/reci117/"
+    },
+    "影视": {
+      "pinyin": "reci121",
+      "link": "/yinyue/reci121/"
+    },
+    "欧美": {
+      "pinyin": "reci507",
+      "link": "/yinyue/reci507/"
+    },
+    "日韩": {
+      "pinyin": "reci506",
+      "link": "/yinyue/reci506/"
+    },
+    "创作达人": {
+      "pinyin": "reci320",
+      "link": "/yinyue/reci320/"
+    },
+    "明星电台": {
+      "pinyin": "reci309",
+      "link": "/yinyue/reci309/"
+    },
+    "相声": {
+      "pinyin": "xiangsheng",
+      "link": "/xiangsheng/xiangsheng/"
+    },
+    "评书": {
+      "pinyin": "pingshu",
+      "link": "/xiangsheng/pingshu/"
+    },
+    "小品": {
+      "pinyin": "xiaopin",
+      "link": "/xiangsheng/xiaopin/"
+    },
+    "鼓曲": {
+      "pinyin": "guqu",
+      "link": "/xiangsheng/guqu/"
+    },
+    "郭德纲": {
+      "pinyin": "reci556",
+      "link": "/xiangsheng/reci556/"
+    },
+    "单田芳": {
+      "pinyin": "reci411",
+      "link": "/xiangsheng/reci411/"
+    },
+    "德云社": {
+      "pinyin": "reci1087",
+      "link": "/xiangsheng/reci1087/"
+    },
+    "青曲社": {
+      "pinyin": "reci1088",
+      "link": "/xiangsheng/reci1088/"
+    },
+    "热门相声": {
+      "pinyin": "reci30",
+      "link": "/xiangsheng/reci30/"
+    },
+    "单口相声": {
+      "pinyin": "reci549",
+      "link": "/xiangsheng/reci549/"
+    },
+    "名家评书": {
+      "pinyin": "reci35",
+      "link": "/xiangsheng/reci35/"
+    },
+    "新锐笑将": {
+      "pinyin": "reci420",
+      "link": "/xiangsheng/reci420/"
+    },
+    "岳云鹏": {
+      "pinyin": "reci1478",
+      "link": "/xiangsheng/reci1478/"
+    },
+    "相声江湖": {
+      "pinyin": "reci560",
+      "link": "/xiangsheng/reci560/"
+    },
+    "青曲茶馆": {
+      "pinyin": "reci561",
+      "link": "/xiangsheng/reci561/"
+    },
+    "刘兰芳": {
+      "pinyin": "reci582",
+      "link": "/xiangsheng/reci582/"
+    },
+    "评书连播": {
+      "pinyin": "reci1028",
+      "link": "/xiangsheng/reci1028/"
+    },
+    "精品相声集": {
+      "pinyin": "reci1091",
+      "link": "/xiangsheng/reci1091/"
+    },
+    "王玥波": {
+      "pinyin": "reci1125",
+      "link": "/xiangsheng/reci1125/"
+    },
+    "郭鹤鸣": {
+      "pinyin": "reci1127",
+      "link": "/xiangsheng/reci1127/"
+    },
+    "武启深": {
+      "pinyin": "reci1128",
+      "link": "/xiangsheng/reci1128/"
+    },
+    "武宗亮": {
+      "pinyin": "reci1129",
+      "link": "/xiangsheng/reci1129/"
+    },
+    "郑思杰": {
+      "pinyin": "reci1130",
+      "link": "/xiangsheng/reci1130/"
+    },
+    "评书精选": {
+      "pinyin": "reci1132",
+      "link": "/xiangsheng/reci1132/"
+    },
+    "张准": {
+      "pinyin": "reci1153",
+      "link": "/xiangsheng/reci1153/"
+    },
+    "雍正剑侠图": {
+      "pinyin": "reci1155",
+      "link": "/xiangsheng/reci1155/"
+    },
+    "脱口秀": {
+      "pinyin": "tuokouxiu",
+      "link": "/keji/tuokouxiu/"
+    },
+    "下班解乏": {
+      "pinyin": "reci1029",
+      "link": "/duanzi/reci1029/"
+    },
+    "说奇葩事": {
+      "pinyin": "reci654",
+      "link": "/duanzi/reci654/"
+    },
+    "无聊必听": {
+      "pinyin": "reci1030",
+      "link": "/duanzi/reci1030/"
+    },
+    "段子": {
+      "pinyin": "reci652",
+      "link": "/duanzi/reci652/"
+    },
+    "笑话": {
+      "pinyin": "reci653",
+      "link": "/duanzi/reci653/"
+    },
+    "搞笑方言": {
+      "pinyin": "reci655",
+      "link": "/duanzi/reci655/"
+    },
+    "情感": {
+      "pinyin": "qinggan",
+      "link": "/lvyou/qinggan/"
+    },
+    "故事": {
+      "pinyin": "gushi",
+      "link": "/lvyou/gushi/"
+    },
+    "美文": {
+      "pinyin": "meiwen",
+      "link": "/qinggan/meiwen/"
+    },
+    "女性": {
+      "pinyin": "nvxing",
+      "link": "/qinggan/nvxing/"
+    },
+    "夜话": {
+      "pinyin": "yehua",
+      "link": "/qinggan/yehua/"
+    },
+    "心理": {
+      "pinyin": "xinli",
+      "link": "/jiankang/xinli/"
+    },
+    "婚姻": {
+      "pinyin": "hunyin",
+      "link": "/qinggan/hunyin/"
+    },
+    "星座": {
+      "pinyin": "xingzuo",
+      "link": "/qinggan/xingzuo/"
+    },
+    "睡前": {
+      "pinyin": "reci46",
+      "link": "/qinggan/reci46/"
+    },
+    "恋爱": {
+      "pinyin": "lianai",
+      "link": "/guangbojv/lianai/"
+    },
+    "搞笑": {
+      "pinyin": "gaoxiao",
+      "link": "/yule/gaoxiao/"
+    },
+    "吐槽": {
+      "pinyin": "tucao",
+      "link": "/yule/tucao/"
+    },
+    "内涵": {
+      "pinyin": "neihan",
+      "link": "/yule/neihan/"
+    },
+    "恶搞": {
+      "pinyin": "egao",
+      "link": "/yule/egao/"
+    },
+    "热辣": {
+      "pinyin": "rela",
+      "link": "/yule/rela/"
+    },
+    "灵异": {
+      "pinyin": "lingyi",
+      "link": "/yule/lingyi/"
+    },
+    "涨姿势": {
+      "pinyin": "zhangzishi",
+      "link": "/yule/zhangzishi/"
+    },
+    "真性情": {
+      "pinyin": "zhenxingqing",
+      "link": "/yule/zhenxingqing/"
+    },
+    "正能量": {
+      "pinyin": "zhengnengliang",
+      "link": "/yule/zhengnengliang/"
+    },
+    "纪实": {
+      "pinyin": "jishi",
+      "link": "/keji/jishi/"
+    },
+    "搞笑段子": {
+      "pinyin": "reci508",
+      "link": "/yule/reci508/"
+    },
+    "奇闻怪谈": {
+      "pinyin": "reci421",
+      "link": "/yule/reci421/"
+    },
+    "八卦": {
+      "pinyin": "reci135",
+      "link": "/yule/reci135/"
+    },
+    "明星粉丝": {
+      "pinyin": "reci136",
+      "link": "/yule/reci136/"
+    },
+    "综艺": {
+      "pinyin": "reci133",
+      "link": "/yule/reci133/"
+    },
+    "刑侦探案": {
+      "pinyin": "reci1377",
+      "link": "/yule/reci1377/"
+    },
+    "原声": {
+      "pinyin": "yuansheng",
+      "link": "/yingshi/yuansheng/"
+    },
+    "评论": {
+      "pinyin": "pinglun",
+      "link": "/yingshi/pinglun/"
+    },
+    "观影指南": {
+      "pinyin": "guanyingzhinan",
+      "link": "/yingshi/guanyingzhinan/"
+    },
+    "配音": {
+      "pinyin": "peiyin",
+      "link": "/yingshi/peiyin/"
+    },
+    "音乐": {
+      "pinyin": "yinyue",
+      "link": "/lvyou/yinyue/"
+    },
+    "明星": {
+      "pinyin": "mingxing",
+      "link": "/yingshi/mingxing/"
+    },
+    "必听影单": {
+      "pinyin": "reci1390",
+      "link": "/yingshi/reci1390/"
+    },
+    "细说好剧": {
+      "pinyin": "reci72",
+      "link": "/yingshi/reci72/"
+    },
+    "原声记忆": {
+      "pinyin": "reci71",
+      "link": "/yingshi/reci71/"
+    },
+    "X分钟听电影": {
+      "pinyin": "reci1536",
+      "link": "/yingshi/reci1536/"
+    },
+    "儿童文学": {
+      "pinyin": "ertongwenxue",
+      "link": "/ertong/ertongwenxue/"
+    },
+    "科普百科": {
+      "pinyin": "kepubaike",
+      "link": "/ertong/kepubaike/"
+    },
+    "少儿音乐": {
+      "pinyin": "shaoeryinyue",
+      "link": "/ertong/shaoeryinyue/"
+    },
+    "少儿影视": {
+      "pinyin": "shaoeryingshi",
+      "link": "/ertong/shaoeryingshi/"
+    },
+    "少儿英语": {
+      "pinyin": "xueqianyingyu",
+      "link": "/ertong/xueqianyingyu/"
+    },
+    "学科教育": {
+      "pinyin": "xuekejiaoyu",
+      "link": "/ertong/xuekejiaoyu/"
+    },
+    "少儿国学": {
+      "pinyin": "shaoerguoxue",
+      "link": "/ertong/shaoerguoxue/"
+    },
+    "儿童教育": {
+      "pinyin": "ertongjiaoyu",
+      "link": "/ertong/ertongjiaoyu/"
+    },
+    "健康": {
+      "pinyin": "jiankang",
+      "link": "/keji/jiankang/"
+    },
+    "父母教育": {
+      "pinyin": "fumujiaoyu",
+      "link": "/ertong/fumujiaoyu/"
+    },
+    "少儿艺术": {
+      "pinyin": "shaoeryishu",
+      "link": "/ertong/shaoeryishu/"
+    },
+    "动画": {
+      "pinyin": "reci336",
+      "link": "/ertong/reci336/"
+    },
+    "科普": {
+      "pinyin": "kepu",
+      "link": "/keji/kepu/"
+    },
+    "名著": {
+      "pinyin": "mingzhu",
+      "link": "/renwen/mingzhu/"
+    },
+    "国学": {
+      "pinyin": "guoxue",
+      "link": "/gerenchengzhang/guoxue/"
+    },
+    "绘本": {
+      "pinyin": "reci567",
+      "link": "/ertong/reci567/"
+    },
+    "家教": {
+      "pinyin": "reci154",
+      "link": "/ertong/reci154/"
+    },
+    "母婴": {
+      "pinyin": "reci149",
+      "link": "/ertong/reci149/"
+    },
+    "艺术": {
+      "pinyin": "yishu",
+      "link": "/ertongjiaoyu/yishu/"
+    },
+    "哄睡": {
+      "pinyin": "reci555",
+      "link": "/ertong/reci555/"
+    },
+    "正史": {
+      "pinyin": "zhengshi",
+      "link": "/lishi/zhengshi/"
+    },
+    "野史": {
+      "pinyin": "yeshi",
+      "link": "/lishi/yeshi/"
+    },
+    "军事": {
+      "pinyin": "junshi",
+      "link": "/toutiao/junshi/"
+    },
+    "战争": {
+      "pinyin": "zhanzheng",
+      "link": "/lishi/zhanzheng/"
+    },
+    "名人": {
+      "pinyin": "mingren",
+      "link": "/lishi/mingren/"
+    },
+    "名师": {
+      "pinyin": "mingshi",
+      "link": "/lishi/mingshi/"
+    },
+    "百家讲坛": {
+      "pinyin": "reci85",
+      "link": "/lishi/reci85/"
+    },
+    "中国史": {
+      "pinyin": "reci86",
+      "link": "/lishi/reci86/"
+    },
+    "世界史": {
+      "pinyin": "reci91",
+      "link": "/lishi/reci91/"
+    },
+    "名人传": {
+      "pinyin": "reci89",
+      "link": "/lishi/reci89/"
+    },
+    "侃野史": {
+      "pinyin": "reci87",
+      "link": "/lishi/reci87/"
+    },
+    "春秋战国": {
+      "pinyin": "reci268",
+      "link": "/lishi/reci268/"
+    },
+    "秦汉": {
+      "pinyin": "reci269",
+      "link": "/lishi/reci269/"
+    },
+    "三国": {
+      "pinyin": "reci270",
+      "link": "/lishi/reci270/"
+    },
+    "魏晋": {
+      "pinyin": "reci271",
+      "link": "/lishi/reci271/"
+    },
+    "隋唐": {
+      "pinyin": "reci272",
+      "link": "/lishi/reci272/"
+    },
+    "宋元": {
+      "pinyin": "reci273",
+      "link": "/lishi/reci273/"
+    },
+    "明清": {
+      "pinyin": "reci274",
+      "link": "/lishi/reci274/"
+    },
+    "民国": {
+      "pinyin": "reci275",
+      "link": "/lishi/reci275/"
+    },
+    "战争史": {
+      "pinyin": "reci1270",
+      "link": "/lishi/reci1270/"
+    },
+    "断代史": {
+      "pinyin": "reci1268",
+      "link": "/lishi/reci1268/"
+    },
+    "商界": {
+      "pinyin": "shangjie",
+      "link": "/shangye/shangjie/"
+    },
+    "理财": {
+      "pinyin": "licai",
+      "link": "/shangye/licai/"
+    },
+    "股票": {
+      "pinyin": "gupiao",
+      "link": "/shangye/gupiao/"
+    },
+    "投资": {
+      "pinyin": "touzi",
+      "link": "/shangye/touzi/"
+    },
+    "创业": {
+      "pinyin": "chuangye",
+      "link": "/keji/chuangye/"
+    },
+    "消费": {
+      "pinyin": "xiaofei",
+      "link": "/shangye/xiaofei/"
+    },
+    "经管": {
+      "pinyin": "jingguan",
+      "link": "/shangye/jingguan/"
+    },
+    "基金": {
+      "pinyin": "jijin",
+      "link": "/shangye/jijin/"
+    },
+    "房产": {
+      "pinyin": "fangchan",
+      "link": "/shangye/fangchan/"
+    },
+    "期货": {
+      "pinyin": "qihuo",
+      "link": "/shangye/qihuo/"
+    },
+    "宏观": {
+      "pinyin": "hongguan",
+      "link": "/shangye/hongguan/"
+    },
+    "贵金属": {
+      "pinyin": "guijinshu",
+      "link": "/shangye/guijinshu/"
+    },
+    "信用卡": {
+      "pinyin": "xinyongka",
+      "link": "/shangye/xinyongka/"
+    },
+    "信托": {
+      "pinyin": "xintuo",
+      "link": "/shangye/xintuo/"
+    },
+    "外汇": {
+      "pinyin": "waihui",
+      "link": "/shangye/waihui/"
+    },
+    "保险": {
+      "pinyin": "baoxian",
+      "link": "/shangye/baoxian/"
+    },
+    "信贷": {
+      "pinyin": "xindai",
+      "link": "/shangye/xindai/"
+    },
+    "互联网金融": {
+      "pinyin": "hulianwangjinrong",
+      "link": "/keji/hulianwangjinrong/"
+    },
+    "风险投资": {
+      "pinyin": "fengxiantouzi",
+      "link": "/shangye/fengxiantouzi/"
+    },
+    "私募股权投资": {
+      "pinyin": "simuguquantouzi",
+      "link": "/shangye/simuguquantouzi/"
+    },
+    "债券": {
+      "pinyin": "zhaiquan",
+      "link": "/shangye/zhaiquan/"
+    },
+    "黄金": {
+      "pinyin": "huangjin",
+      "link": "/shangye/huangjin/"
+    },
+    "热点资讯": {
+      "pinyin": "reci1037",
+      "link": "/shangye/reci1037/"
+    },
+    "大咖评论": {
+      "pinyin": "reci192",
+      "link": "/shangye/reci192/"
+    },
+    "投资理财": {
+      "pinyin": "reci1002",
+      "link": "/shangye/reci1002/"
+    },
+    "证券市场": {
+      "pinyin": "reci1003",
+      "link": "/shangye/reci1003/"
+    },
+    "创投创业": {
+      "pinyin": "reci1004",
+      "link": "/shangye/reci1004/"
+    },
+    "商业经管": {
+      "pinyin": "reci1005",
+      "link": "/shangye/reci1005/"
+    },
+    "精英图书": {
+      "pinyin": "reci693",
+      "link": "/shangye/reci693/"
+    },
+    "诗歌": {
+      "pinyin": "shige",
+      "link": "/renwen/shige/"
+    },
+    "哲学": {
+      "pinyin": "zhexue",
+      "link": "/gerenchengzhang/zhexue/"
+    },
+    "心灵": {
+      "pinyin": "xinling",
+      "link": "/renwen/xinling/"
+    },
+    "文化": {
+      "pinyin": "wenhua",
+      "link": "/lvyou/wenhua/"
+    },
+    "收藏": {
+      "pinyin": "shoucang",
+      "link": "/renwen/shoucang/"
+    },
+    "儿童": {
+      "pinyin": "ertong",
+      "link": "/renwen/ertong/"
+    },
+    "诸子": {
+      "pinyin": "zhuzi",
+      "link": "/renwen/zhuzi/"
+    },
+    "史鉴": {
+      "pinyin": "shijian",
+      "link": "/renwen/shijian/"
+    },
+    "经典名著": {
+      "pinyin": "reci431",
+      "link": "/renwen/reci431/"
+    },
+    "读书会": {
+      "pinyin": "reci427",
+      "link": "/renwen/reci427/"
+    },
+    "诗词国学": {
+      "pinyin": "reci430",
+      "link": "/renwen/reci430/"
+    },
+    "纪实档案": {
+      "pinyin": "reci433",
+      "link": "/renwen/reci433/"
+    },
+    "艺术修养": {
+      "pinyin": "reci428",
+      "link": "/renwen/reci428/"
+    },
+    "名家讲座": {
+      "pinyin": "reci429",
+      "link": "/renwen/reci429/"
+    },
+    "空中图书馆": {
+      "pinyin": "reci707",
+      "link": "/renwen/reci707/"
+    },
+    "VIP畅听": {
+      "pinyin": "reci861",
+      "link": "/renwen/reci861/"
+    },
+    "VIP精选": {
+      "pinyin": "reci1164",
+      "link": "/renwen/reci1164/"
+    },
+    "国学课堂": {
+      "pinyin": "reci1160",
+      "link": "/renwen/reci1160/"
+    },
+    "名著导读": {
+      "pinyin": "reci1161",
+      "link": "/renwen/reci1161/"
+    },
+    "诗词达人": {
+      "pinyin": "reci1162",
+      "link": "/renwen/reci1162/"
+    },
+    "法律": {
+      "pinyin": "falv",
+      "link": "/gerenchengzhang/falv/"
+    },
+    "管理": {
+      "pinyin": "guanli",
+      "link": "/gerenchengzhang/guanli/"
+    },
+    "营销": {
+      "pinyin": "yingxiao",
+      "link": "/gerenchengzhang/yingxiao/"
+    },
+    "求职": {
+      "pinyin": "qiuzhi",
+      "link": "/gerenchengzhang/qiuzhi/"
+    },
+    "沟通表达": {
+      "pinyin": "goutongbiaoda",
+      "link": "/gerenchengzhang/goutongbiaoda/"
+    },
+    "职场": {
+      "pinyin": "zhichang",
+      "link": "/guangbojv/zhichang/"
+    },
+    "职业技能": {
+      "pinyin": "zhiyejineng",
+      "link": "/keji/zhiyejineng/"
+    },
+    "考试培训": {
+      "pinyin": "kaoshipeixun",
+      "link": "/gerenchengzhang/kaoshipeixun/"
+    },
+    "新媒体": {
+      "pinyin": "xinmeiti",
+      "link": "/jiaoyupeixun/xinmeiti/"
+    },
+    "名人语录": {
+      "pinyin": "mingrenyulu",
+      "link": "/gerenchengzhang/mingrenyulu/"
+    },
+    "家庭教育": {
+      "pinyin": "jiatingjiaoyu",
+      "link": "/gerenchengzhang/jiatingjiaoyu/"
+    },
+    "互联网": {
+      "pinyin": "hulianwang",
+      "link": "/keji/hulianwang/"
+    },
+    "生活百科": {
+      "pinyin": "shenghuobaike",
+      "link": "/keji/shenghuobaike/"
+    },
+    "语言": {
+      "pinyin": "yuyan",
+      "link": "/gerenchengzhang/yuyan/"
+    },
+    "人力资源": {
+      "pinyin": "renliziyuan",
+      "link": "/gerenchengzhang/renliziyuan/"
+    },
+    "人文": {
+      "pinyin": "renwen",
+      "link": "/gerenchengzhang/renwen/"
+    },
+    "励志": {
+      "pinyin": "lizhi",
+      "link": "/keji/lizhi/"
+    },
+    "女性成长": {
+      "pinyin": "nvxingchengzhang",
+      "link": "/gerenchengzhang/nvxingchengzhang/"
+    },
+    "人际沟通": {
+      "pinyin": "reci500",
+      "link": "/gerenchengzhang/reci500/"
+    },
+    "心理调节": {
+      "pinyin": "reci286",
+      "link": "/gerenchengzhang/reci286/"
+    },
+    "名人演讲": {
+      "pinyin": "reci289",
+      "link": "/gerenchengzhang/reci289/"
+    },
+    "高效管理": {
+      "pinyin": "reci416",
+      "link": "/gerenchengzhang/reci416/"
+    },
+    "畅销书": {
+      "pinyin": "reci1506",
+      "link": "/gerenchengzhang/reci1506/"
+    },
+    "名企大咖": {
+      "pinyin": "reci578",
+      "link": "/gerenchengzhang/reci578/"
+    },
+    "成功励志": {
+      "pinyin": "reci291",
+      "link": "/gerenchengzhang/reci291/"
+    },
+    "科技": {
+      "pinyin": "keji",
+      "link": "/toutiao/keji/"
+    },
+    "科学探秘": {
+      "pinyin": "tanmi",
+      "link": "/keji/tanmi/"
+    },
+    "极客": {
+      "pinyin": "jike",
+      "link": "/keji/jike/"
+    },
+    "区块链": {
+      "pinyin": "qukuailian",
+      "link": "/keji/qukuailian/"
+    },
+    "科幻": {
+      "pinyin": "kehuan",
+      "link": "/guangbojv/kehuan/"
+    },
+    "评测": {
+      "pinyin": "pingce",
+      "link": "/qiche/pingce/"
+    },
+    "5G": {
+      "pinyin": "5g",
+      "link": "/keji/5g/"
+    },
+    "数码": {
+      "pinyin": "shuma",
+      "link": "/keji/shuma/"
+    },
+    "程序员": {
+      "pinyin": "chengxuyuan",
+      "link": "/keji/chengxuyuan/"
+    },
+    "产品": {
+      "pinyin": "chanpinjingli",
+      "link": "/keji/chanpinjingli/"
+    },
+    "移动互联网": {
+      "pinyin": "yidonghulianwang",
+      "link": "/keji/yidonghulianwang/"
+    },
+    "大数据": {
+      "pinyin": "dashuju",
+      "link": "/keji/dashuju/"
+    },
+    "人工智能": {
+      "pinyin": "zhineng",
+      "link": "/keji/zhineng/"
+    },
+    "智能硬件": {
+      "pinyin": "zhinengyingjian",
+      "link": "/keji/zhinengyingjian/"
+    },
+    "天文": {
+      "pinyin": "tianwen",
+      "link": "/keji/tianwen/"
+    },
+    "数学": {
+      "pinyin": "shuxue",
+      "link": "/ertongjiaoyu/shuxue/"
+    },
+    "物理": {
+      "pinyin": "wuli",
+      "link": "/keji/wuli/"
+    },
+    "通信": {
+      "pinyin": "tongxin",
+      "link": "/keji/tongxin/"
+    },
+    "电竞": {
+      "pinyin": "dianjing",
+      "link": "/erciyuan/dianjing/"
+    },
+    "基因": {
+      "pinyin": "jiyin",
+      "link": "/keji/jiyin/"
+    },
+    "医疗": {
+      "pinyin": "yiliao",
+      "link": "/keji/yiliao/"
+    },
+    "人体": {
+      "pinyin": "renti",
+      "link": "/keji/renti/"
+    },
+    "社会科学": {
+      "pinyin": "shehuikexue",
+      "link": "/keji/shehuikexue/"
+    },
+    "人物传记": {
+      "pinyin": "renwuzhuanji",
+      "link": "/keji/renwuzhuanji/"
+    },
+    "世界历史": {
+      "pinyin": "reci1587",
+      "link": "/ertongjiaoyu/reci1587/"
+    },
+    "中国历史": {
+      "pinyin": "zhongguolishi",
+      "link": "/keji/zhongguolishi/"
+    },
+    "商战": {
+      "pinyin": "shangzhan",
+      "link": "/keji/shangzhan/"
+    },
+    "零基础": {
+      "pinyin": "lingjichu",
+      "link": "/keji/lingjichu/"
+    },
+    "健康常识": {
+      "pinyin": "jiankangchangshi",
+      "link": "/jiankang/jiankangchangshi/"
+    },
+    "技能": {
+      "pinyin": "jineng",
+      "link": "/keji/jineng/"
+    },
+    "大咖": {
+      "pinyin": "daka",
+      "link": "/keji/daka/"
+    },
+    "广播剧": {
+      "pinyin": "guangboju",
+      "link": "/erciyuan/guangboju/"
+    },
+    "美食": {
+      "pinyin": "meishi",
+      "link": "/shishang/meishi/"
+    },
+    "宇宙": {
+      "pinyin": "yuzhou",
+      "link": "/keji/yuzhou/"
+    },
+    "AI": {
+      "pinyin": "ai",
+      "link": "/keji/ai/"
+    },
+    "新基建": {
+      "pinyin": "xinjijian",
+      "link": "/keji/xinjijian/"
+    },
+    "物联网": {
+      "pinyin": "wulianwang",
+      "link": "/keji/wulianwang/"
+    },
+    "机器人": {
+      "pinyin": "jiqiren",
+      "link": "/keji/jiqiren/"
+    },
+    "天体物理": {
+      "pinyin": "tiantiwuli",
+      "link": "/keji/tiantiwuli/"
+    },
+    "宇航": {
+      "pinyin": "yuhang",
+      "link": "/keji/yuhang/"
+    },
+    "科学史": {
+      "pinyin": "kexueshi",
+      "link": "/keji/kexueshi/"
+    },
+    "科技史": {
+      "pinyin": "kejishi",
+      "link": "/keji/kejishi/"
+    },
+    "未来局出品": {
+      "pinyin": "reci1723",
+      "link": "/keji/reci1723/"
+    },
+    "生命": {
+      "pinyin": "reci1507",
+      "link": "/keji/reci1507/"
+    },
+    "太空漫游": {
+      "pinyin": "reci1513",
+      "link": "/keji/reci1513/"
+    },
+    "职人充电": {
+      "pinyin": "reci210",
+      "link": "/keji/reci210/"
+    },
+    "刘慈欣": {
+      "pinyin": "reci1057",
+      "link": "/keji/reci1057/"
+    },
+    "英语": {
+      "pinyin": "yingyu",
+      "link": "/ertongjiaoyu/yingyu/"
+    },
+    "日语": {
+      "pinyin": "riyu",
+      "link": "/waiyu/riyu/"
+    },
+    "韩语": {
+      "pinyin": "hanyu",
+      "link": "/waiyu/hanyu/"
+    },
+    "法语": {
+      "pinyin": "fayu",
+      "link": "/waiyu/fayu/"
+    },
+    "泰语": {
+      "pinyin": "taiyu",
+      "link": "/waiyu/taiyu/"
+    },
+    "德语": {
+      "pinyin": "deyu",
+      "link": "/waiyu/deyu/"
+    },
+    "俄语": {
+      "pinyin": "eyu",
+      "link": "/waiyu/eyu/"
+    },
+    "西班牙语": {
+      "pinyin": "xibanyayu",
+      "link": "/waiyu/xibanyayu/"
+    },
+    "意大利语": {
+      "pinyin": "yidaliyu",
+      "link": "/waiyu/yidaliyu/"
+    },
+    "葡萄牙语": {
+      "pinyin": "putaoyayu",
+      "link": "/waiyu/putaoyayu/"
+    },
+    "其他语言": {
+      "pinyin": "qitayuyan",
+      "link": "/waiyu/qitayuyan/"
+    },
+    "口语": {
+      "pinyin": "reci395",
+      "link": "/waiyu/reci395/"
+    },
+    "考试": {
+      "pinyin": "reci257",
+      "link": "/waiyu/reci257/"
+    },
+    "演讲": {
+      "pinyin": "reci143",
+      "link": "/waiyu/reci143/"
+    },
+    "入门": {
+      "pinyin": "reci141",
+      "link": "/waiyu/reci141/"
+    },
+    "BBC": {
+      "pinyin": "reci365",
+      "link": "/waiyu/reci365/"
+    },
+    "畅听会员": {
+      "pinyin": "reci296",
+      "link": "/waiyu/reci296/"
+    },
+    "付费专区": {
+      "pinyin": "reci801",
+      "link": "/waiyu/reci801/"
+    },
+    "语文": {
+      "pinyin": "yuwen",
+      "link": "/ertongjiaoyu/yuwen/"
+    },
+    "自然科普": {
+      "pinyin": "zirankepu",
+      "link": "/ertongjiaoyu/zirankepu/"
+    },
+    "地理": {
+      "pinyin": "dili",
+      "link": "/lvyou/dili/"
+    },
+    "科学": {
+      "pinyin": "kexue",
+      "link": "/ertongjiaoyu/kexue/"
+    },
+    "能力素养": {
+      "pinyin": "nenglisuyang",
+      "link": "/ertongjiaoyu/nenglisuyang/"
+    },
+    "教材教辅": {
+      "pinyin": "reci1557",
+      "link": "/ertongjiaoyu/reci1557/"
+    },
+    "美术": {
+      "pinyin": "reci1546",
+      "link": "/ertongjiaoyu/reci1546/"
+    },
+    "益智棋类": {
+      "pinyin": "reci1560",
+      "link": "/ertongjiaoyu/reci1560/"
+    },
+    "创意手工": {
+      "pinyin": "reci1570",
+      "link": "/ertongjiaoyu/reci1570/"
+    },
+    "文学鉴赏": {
+      "pinyin": "reci1540",
+      "link": "/ertongjiaoyu/reci1540/"
+    },
+    "课外读物": {
+      "pinyin": "reci1542",
+      "link": "/ertongjiaoyu/reci1542/"
+    },
+    "自然地理": {
+      "pinyin": "reci1554",
+      "link": "/ertongjiaoyu/reci1554/"
+    },
+    "天文物理": {
+      "pinyin": "reci1569",
+      "link": "/ertongjiaoyu/reci1569/"
+    },
+    "军事科技": {
+      "pinyin": "reci1556",
+      "link": "/ertongjiaoyu/reci1556/"
+    },
+    "少儿编程": {
+      "pinyin": "reci1568",
+      "link": "/ertongjiaoyu/reci1568/"
+    },
+    "情商养成": {
+      "pinyin": "reci1558",
+      "link": "/ertongjiaoyu/reci1558/"
+    },
+    "安全教育": {
+      "pinyin": "reci1559",
+      "link": "/ertongjiaoyu/reci1559/"
+    },
+    "艺术启蒙": {
+      "pinyin": "reci1566",
+      "link": "/ertongjiaoyu/reci1566/"
+    },
+    "表演主持": {
+      "pinyin": "reci1580",
+      "link": "/ertongjiaoyu/reci1580/"
+    },
+    "社会": {
+      "pinyin": "shehui",
+      "link": "/toutiao/shehui/"
+    },
+    "民生": {
+      "pinyin": "minsheng",
+      "link": "/toutiao/minsheng/"
+    },
+    "国内": {
+      "pinyin": "guonei",
+      "link": "/toutiao/guonei/"
+    },
+    "国际": {
+      "pinyin": "guoji",
+      "link": "/toutiao/guoji/"
+    },
+    "财经": {
+      "pinyin": "caijing",
+      "link": "/toutiao/caijing/"
+    },
+    "娱乐": {
+      "pinyin": "yule",
+      "link": "/toutiao/yule/"
+    },
+    "体育": {
+      "pinyin": "tiyu",
+      "link": "/toutiao/tiyu/"
+    },
+    "听两会": {
+      "pinyin": "reci490",
+      "link": "/jiandangbainian/reci490/"
+    },
+    "体育资讯": {
+      "pinyin": "reci1707",
+      "link": "/toutiao/reci1707/"
+    },
+    "体育播客": {
+      "pinyin": "reci1708",
+      "link": "/toutiao/reci1708/"
+    },
+    "足球": {
+      "pinyin": "reci1710",
+      "link": "/toutiao/reci1710/"
+    },
+    "篮球": {
+      "pinyin": "reci1711",
+      "link": "/toutiao/reci1711/"
+    },
+    "俱乐部电台": {
+      "pinyin": "reci1712",
+      "link": "/toutiao/reci1712/"
+    },
+    "上新推荐": {
+      "pinyin": "reci1713",
+      "link": "/toutiao/reci1713/"
+    },
+    "有声漫画": {
+      "pinyin": "reci1357",
+      "link": "/guangbojv/reci1357/"
+    },
+    "ACG音乐": {
+      "pinyin": "acgyinyue",
+      "link": "/erciyuan/acgyinyue/"
+    },
+    "同人文": {
+      "pinyin": "tongrenwen",
+      "link": "/erciyuan/tongrenwen/"
+    },
+    "游戏": {
+      "pinyin": "youxi",
+      "link": "/guangbojv/youxi/"
+    },
+    "声优": {
+      "pinyin": "shengyou",
+      "link": "/erciyuan/shengyou/"
+    },
+    "英雄联盟S10": {
+      "pinyin": "reci1681",
+      "link": "/erciyuan/reci1681/"
+    },
+    "游戏视频": {
+      "pinyin": "reci315",
+      "link": "/erciyuan/reci315/"
+    },
+    "精选": {
+      "pinyin": "reci178",
+      "link": "/erciyuan/reci178/"
+    },
+    "电台": {
+      "pinyin": "reci1394",
+      "link": "/erciyuan/reci1394/"
+    },
+    "我的世界": {
+      "pinyin": "reci1522",
+      "link": "/erciyuan/reci1522/"
+    },
+    "ACFUN": {
+      "pinyin": "reci1534",
+      "link": "/erciyuan/reci1534/"
+    },
+    "京剧": {
+      "pinyin": "jingju",
+      "link": "/xiqu/jingju/"
+    },
+    "黄梅戏": {
+      "pinyin": "huangmeixi",
+      "link": "/xiqu/huangmeixi/"
+    },
+    "越剧": {
+      "pinyin": "yueju",
+      "link": "/xiqu/yueju/"
+    },
+    "昆曲": {
+      "pinyin": "kunqu",
+      "link": "/xiqu/kunqu/"
+    },
+    "地方戏": {
+      "pinyin": "difangxi",
+      "link": "/xiqu/difangxi/"
+    },
+    "豫剧": {
+      "pinyin": "yuju",
+      "link": "/xiqu/yuju/"
+    },
+    "秦腔": {
+      "pinyin": "qinqiang",
+      "link": "/xiqu/qinqiang/"
+    },
+    "评剧": {
+      "pinyin": "pingju",
+      "link": "/xiqu/pingju/"
+    },
+    "粤剧": {
+      "pinyin": "yuejv",
+      "link": "/xiqu/yuejv/"
+    },
+    "沪剧": {
+      "pinyin": "huju",
+      "link": "/xiqu/huju/"
+    },
+    "二人转": {
+      "pinyin": "errenzhuan",
+      "link": "/xiqu/errenzhuan/"
+    },
+    "河南坠子": {
+      "pinyin": "henanzhuizi",
+      "link": "/xiqu/henanzhuizi/"
+    },
+    "评弹": {
+      "pinyin": "pingtan",
+      "link": "/xiqu/pingtan/"
+    },
+    "晋剧": {
+      "pinyin": "jinju",
+      "link": "/xiqu/jinju/"
+    },
+    "蒲剧": {
+      "pinyin": "puju",
+      "link": "/xiqu/puju/"
+    },
+    "吕剧": {
+      "pinyin": "lvju",
+      "link": "/xiqu/lvju/"
+    },
+    "滑稽戏": {
+      "pinyin": "huajixi",
+      "link": "/xiqu/huajixi/"
+    },
+    "戏曲大全": {
+      "pinyin": "reci169",
+      "link": "/xiqu/reci169/"
+    },
+    "华美京剧": {
+      "pinyin": "reci61",
+      "link": "/xiqu/reci61/"
+    },
+    "温婉越剧": {
+      "pinyin": "reci63",
+      "link": "/xiqu/reci63/"
+    },
+    "明快黄梅": {
+      "pinyin": "reci62",
+      "link": "/xiqu/reci62/"
+    },
+    "多彩沪剧": {
+      "pinyin": "reci201",
+      "link": "/xiqu/reci201/"
+    },
+    "典雅昆曲": {
+      "pinyin": "reci168",
+      "link": "/xiqu/reci168/"
+    },
+    "嬉笑怒骂二人转": {
+      "pinyin": "reci202",
+      "link": "/xiqu/reci202/"
+    },
+    "攻略": {
+      "pinyin": "gonglue",
+      "link": "/lvyou/gonglue/"
+    },
+    "户外": {
+      "pinyin": "huwai",
+      "link": "/lvyou/huwai/"
+    },
+    "走遍中国": {
+      "pinyin": "reci174",
+      "link": "/lvyou/reci174/"
+    },
+    "环游世界": {
+      "pinyin": "reci1332",
+      "link": "/lvyou/reci1332/"
+    },
+    "人文地理": {
+      "pinyin": "reci363",
+      "link": "/lvyou/reci363/"
+    },
+    "游览攻略": {
+      "pinyin": "reci1337",
+      "link": "/lvyou/reci1337/"
+    },
+    "户外玩家": {
+      "pinyin": "reci175",
+      "link": "/lvyou/reci175/"
+    },
+    "旅途心情": {
+      "pinyin": "reci176",
+      "link": "/lvyou/reci176/"
+    },
+    "中医": {
+      "pinyin": "zhongyi",
+      "link": "/jiankang/zhongyi/"
+    },
+    "两性健康": {
+      "pinyin": "liangxingjiankang",
+      "link": "/jiankang/liangxingjiankang/"
+    },
+    "营养": {
+      "pinyin": "yingyang",
+      "link": "/jiankang/yingyang/"
+    },
+    "疾病预防": {
+      "pinyin": "jibingyufang",
+      "link": "/jiankang/jibingyufang/"
+    },
+    "艾灸": {
+      "pinyin": "aijiu",
+      "link": "/jiankang/aijiu/"
+    },
+    "针灸": {
+      "pinyin": "zhenjiu",
+      "link": "/jiankang/zhenjiu/"
+    },
+    "偏方": {
+      "pinyin": "pianfang",
+      "link": "/jiankang/pianfang/"
+    },
+    "黄帝内经": {
+      "pinyin": "huangdineijing",
+      "link": "/jiankang/huangdineijing/"
+    },
+    "吃出健康": {
+      "pinyin": "reci160",
+      "link": "/jiankang/reci160/"
+    },
+    "我要减肥": {
+      "pinyin": "reci1311",
+      "link": "/jiankang/reci1311/"
+    },
+    "十月妈咪": {
+      "pinyin": "reci1313",
+      "link": "/jiankang/reci1313/"
+    },
+    "两性奥秘": {
+      "pinyin": "reci1312",
+      "link": "/jiankang/reci1312/"
+    },
+    "运动健身": {
+      "pinyin": "reci158",
+      "link": "/jiankang/reci158/"
+    },
+    "中医养生": {
+      "pinyin": "reci1314",
+      "link": "/jiankang/reci1314/"
+    },
+    "心灵解压": {
+      "pinyin": "reci1315",
+      "link": "/jiankang/reci1315/"
+    },
+    "古法艾灸": {
+      "pinyin": "reci161",
+      "link": "/jiankang/reci161/"
+    },
+    "轻松入睡": {
+      "pinyin": "reci1165",
+      "link": "/jiankang/reci1165/"
+    },
+    "健康宝宝": {
+      "pinyin": "reci487",
+      "link": "/jiankang/reci487/"
+    },
+    "美丽驻颜": {
+      "pinyin": "reci157",
+      "link": "/jiankang/reci157/"
+    },
+    "生活家": {
+      "pinyin": "shenghuojia",
+      "link": "/shishang/shenghuojia/"
+    },
+    "家居": {
+      "pinyin": "jiaju",
+      "link": "/shishang/jiaju/"
+    },
+    "美容": {
+      "pinyin": "meirong",
+      "link": "/shishang/meirong/"
+    },
+    "减肥塑形": {
+      "pinyin": "jianfeisuxing",
+      "link": "/shishang/jianfeisuxing/"
+    },
+    "达人": {
+      "pinyin": "daren",
+      "link": "/shishang/daren/"
+    },
+    "运动": {
+      "pinyin": "yundong",
+      "link": "/shishang/yundong/"
+    },
+    "时尚": {
+      "pinyin": "shishang",
+      "link": "/shishang/shishang/"
+    },
+    "萌宠": {
+      "pinyin": "mengchong",
+      "link": "/shishang/mengchong/"
+    },
+    "摄影": {
+      "pinyin": "sheying",
+      "link": "/shishang/sheying/"
+    },
+    "珠宝腕表": {
+      "pinyin": "zhubaowanbiao",
+      "link": "/shishang/zhubaowanbiao/"
+    },
+    "茶酒": {
+      "pinyin": "chajiu",
+      "link": "/shishang/chajiu/"
+    },
+    "芳疗": {
+      "pinyin": "fangliao",
+      "link": "/shishang/fangliao/"
+    },
+    "减肥瘦身": {
+      "pinyin": "reci1317",
+      "link": "/shishang/reci1317/"
+    },
+    "护肤美妆": {
+      "pinyin": "reci1319",
+      "link": "/shishang/reci1319/"
+    },
+    "找点美食": {
+      "pinyin": "reci1318",
+      "link": "/shishang/reci1318/"
+    },
+    "治愈萌宠": {
+      "pinyin": "reci1316",
+      "link": "/shishang/reci1316/"
+    },
+    "来点好物": {
+      "pinyin": "reci1320",
+      "link": "/shishang/reci1320/"
+    },
+    "生活美学家": {
+      "pinyin": "reci366",
+      "link": "/shishang/reci366/"
+    },
+    "架空": {
+      "pinyin": "jiakong",
+      "link": "/guangbojv/jiakong/"
+    },
+    "校园": {
+      "pinyin": "xiaoyuan",
+      "link": "/guangbojv/xiaoyuan/"
+    },
+    "仙侠": {
+      "pinyin": "xianxia",
+      "link": "/guangbojv/xianxia/"
+    },
+    "奇幻": {
+      "pinyin": "qihuan",
+      "link": "/guangbojv/qihuan/"
+    },
+    "玄幻": {
+      "pinyin": "xuanhuan",
+      "link": "/guangbojv/xuanhuan/"
+    },
+    "推理": {
+      "pinyin": "tuili",
+      "link": "/guangbojv/tuili/"
+    },
+    "爆笑": {
+      "pinyin": "baoxiao",
+      "link": "/guangbojv/baoxiao/"
+    },
+    "脑洞": {
+      "pinyin": "naodong",
+      "link": "/guangbojv/naodong/"
+    },
+    "画风清奇": {
+      "pinyin": "huafengqingqi",
+      "link": "/guangbojv/huafengqingqi/"
+    },
+    "虚拟偶像": {
+      "pinyin": "xuniouxiang",
+      "link": "/guangbojv/xuniouxiang/"
+    },
+    "玛丽苏": {
+      "pinyin": "malisu",
+      "link": "/guangbojv/malisu/"
+    },
+    "日漫": {
+      "pinyin": "riman",
+      "link": "/guangbojv/riman/"
+    },
+    "霸道总裁": {
+      "pinyin": "badaozongcai",
+      "link": "/guangbojv/badaozongcai/"
+    },
+    "萌系": {
+      "pinyin": "mengxi",
+      "link": "/guangbojv/mengxi/"
+    },
+    "民间故事": {
+      "pinyin": "minjiangushi",
+      "link": "/guangbojv/minjiangushi/"
+    },
+    "现代言情": {
+      "pinyin": "reci546",
+      "link": "/guangbojv/reci546/"
+    },
+    "全年龄": {
+      "pinyin": "reci54",
+      "link": "/guangbojv/reci54/"
+    },
+    "月上新周播剧": {
+      "pinyin": "reci1198",
+      "link": "/guangbojv/reci1198/"
+    },
+    "会员专区": {
+      "pinyin": "reci1664",
+      "link": "/guangbojv/reci1664/"
+    },
+    "心动剧场": {
+      "pinyin": "reci1660",
+      "link": "/guangbojv/reci1660/"
+    },
+    "国风剧场": {
+      "pinyin": "reci1661",
+      "link": "/guangbojv/reci1661/"
+    },
+    "尖声剧场": {
+      "pinyin": "reci1662",
+      "link": "/guangbojv/reci1662/"
+    },
+    "爆笑粤语": {
+      "pinyin": "reci612",
+      "link": "/yueyu/reci612/"
+    },
+    "亲子故事": {
+      "pinyin": "reci609",
+      "link": "/yueyu/reci609/"
+    },
+    "新生活": {
+      "pinyin": "reci992",
+      "link": "/yueyu/reci992/"
+    },
+    "都市情感": {
+      "pinyin": "reci613",
+      "link": "/yueyu/reci613/"
+    },
+    "粤文化": {
+      "pinyin": "reci610",
+      "link": "/yueyu/reci610/"
+    },
+    "粤语评书": {
+      "pinyin": "reci608",
+      "link": "/yueyu/reci608/"
+    },
+    "粤语金曲": {
+      "pinyin": "reci611",
+      "link": "/yueyu/reci611/"
+    },
+    "普法": {
+      "pinyin": "reci747",
+      "link": "/falvketang/reci747/"
+    },
+    "融资投资": {
+      "pinyin": "reci748",
+      "link": "/falvketang/reci748/"
+    },
+    "民法生活": {
+      "pinyin": "reci749",
+      "link": "/falvketang/reci749/"
+    },
+    "法考": {
+      "pinyin": "reci750",
+      "link": "/falvketang/reci750/"
+    },
+    "公司": {
+      "pinyin": "reci751",
+      "link": "/falvketang/reci751/"
+    },
+    "诉讼": {
+      "pinyin": "reci752",
+      "link": "/falvketang/reci752/"
+    },
+    "付费精品": {
+      "pinyin": "reci780",
+      "link": "/falvketang/reci780/"
+    },
+    "考研": {
+      "pinyin": "kaoyan",
+      "link": "/jiaoyupeixun/kaoyan/"
+    },
+    "公考": {
+      "pinyin": "gongkao",
+      "link": "/jiaoyupeixun/gongkao/"
+    },
+    "公开课": {
+      "pinyin": "gongkaike",
+      "link": "/jiaoyupeixun/gongkaike/"
+    },
+    "主播培训": {
+      "pinyin": "zhubopeixun",
+      "link": "/jiaoyupeixun/zhubopeixun/"
+    },
+    "电商": {
+      "pinyin": "dianshang",
+      "link": "/jiaoyupeixun/dianshang/"
+    },
+    "留学": {
+      "pinyin": "liuxue",
+      "link": "/jiaoyupeixun/liuxue/"
+    },
+    "教师资格": {
+      "pinyin": "jiaoshizige",
+      "link": "/jiaoyupeixun/jiaoshizige/"
+    },
+    "财会金融": {
+      "pinyin": "caihuijinrong",
+      "link": "/jiaoyupeixun/caihuijinrong/"
+    },
+    "求职准备": {
+      "pinyin": "qiuzhizhunbei",
+      "link": "/jiaoyupeixun/qiuzhizhunbei/"
+    },
+    "时间管理": {
+      "pinyin": "shijianguanli",
+      "link": "/jiaoyupeixun/shijianguanli/"
+    },
+    "互联网IT": {
+      "pinyin": "hulianwangit",
+      "link": "/jiaoyupeixun/hulianwangit/"
+    },
+    "学历考试": {
+      "pinyin": "reci102",
+      "link": "/jiaoyupeixun/reci102/"
+    },
+    "职业考试": {
+      "pinyin": "reci108",
+      "link": "/jiaoyupeixun/reci108/"
+    },
+    "大学慕课": {
+      "pinyin": "reci107",
+      "link": "/jiaoyupeixun/reci107/"
+    },
+    "十九大": {
+      "pinyin": "reci479",
+      "link": "/jiandangbainian/reci479/"
+    },
+    "学法规": {
+      "pinyin": "reci486",
+      "link": "/jiandangbainian/reci486/"
+    },
+    "发展历程": {
+      "pinyin": "reci485",
+      "link": "/jiandangbainian/reci485/"
+    },
+    "党课随身听": {
+      "pinyin": "reci513",
+      "link": "/jiandangbainian/reci513/"
+    },
+    "征程": {
+      "pinyin": "reci516",
+      "link": "/jiandangbainian/reci516/"
+    },
+    "新思想": {
+      "pinyin": "reci700",
+      "link": "/jiandangbainian/reci700/"
+    },
+    "榜样故事": {
+      "pinyin": "reci703",
+      "link": "/jiandangbainian/reci703/"
+    },
+    "大企业": {
+      "pinyin": "reci523",
+      "link": "/pinpai/reci523/"
+    },
+    "汽车": {
+      "pinyin": "reci524",
+      "link": "/pinpai/reci524/"
+    },
+    "IT企业": {
+      "pinyin": "reci525",
+      "link": "/pinpai/reci525/"
+    },
+    "政务": {
+      "pinyin": "reci526",
+      "link": "/pinpai/reci526/"
+    },
+    "教育培训": {
+      "pinyin": "reci527",
+      "link": "/pinpai/reci527/"
+    },
+    "文化机构": {
+      "pinyin": "reci528",
+      "link": "/pinpai/reci528/"
+    },
+    "媒体": {
+      "pinyin": "reci529",
+      "link": "/pinpai/reci529/"
+    },
+    "金融": {
+      "pinyin": "reci530",
+      "link": "/pinpai/reci530/"
+    },
+    "其他": {
+      "pinyin": "reci531",
+      "link": "/pinpai/reci531/"
+    },
+    "开讲了": {
+      "pinyin": "reci541",
+      "link": "/pinpai/reci541/"
+    },
+    "都市汇": {
+      "pinyin": "reci542",
+      "link": "/pinpai/reci542/"
+    },
+    "趣生活": {
+      "pinyin": "reci543",
+      "link": "/pinpai/reci543/"
+    },
+    "新技能": {
+      "pinyin": "reci544",
+      "link": "/pinpai/reci544/"
+    },
+    "育儿园": {
+      "pinyin": "reci545",
+      "link": "/pinpai/reci545/"
+    },
+    "购车": {
+      "pinyin": "gouche",
+      "link": "/qiche/gouche/"
+    },
+    "用车": {
+      "pinyin": "yongche",
+      "link": "/qiche/yongche/"
+    },
+    "说车": {
+      "pinyin": "shuoche",
+      "link": "/qiche/shuoche/"
+    },
+    "维修改装": {
+      "pinyin": "weixiugaizhuang",
+      "link": "/qiche/weixiugaizhuang/"
+    },
+    "车闻趣事": {
+      "pinyin": "chewenqushi",
+      "link": "/qiche/chewenqushi/"
+    },
+    "品牌历史": {
+      "pinyin": "pinpailishi",
+      "link": "/qiche/pinpailishi/"
+    },
+    "摩托车": {
+      "pinyin": "motuoche",
+      "link": "/qiche/motuoche/"
+    },
+    "购车选车": {
+      "pinyin": "reci78",
+      "link": "/qiche/reci78/"
+    },
+    "玩车": {
+      "pinyin": "reci79",
+      "link": "/qiche/reci79/"
+    },
+    "热点汇": {
+      "pinyin": "reci80",
+      "link": "/qiche/reci80/"
+    },
+    "汽车脱口秀": {
+      "pinyin": "reci81",
+      "link": "/qiche/reci81/"
+    },
+    "时尚点": {
+      "pinyin": "reci1388",
+      "link": "/minnanyu/reci1388/"
+    },
+    "养生堂": {
+      "pinyin": "reci1384",
+      "link": "/minnanyu/reci1384/"
+    },
+    "厝边头尾": {
+      "pinyin": "reci1385",
+      "link": "/minnanyu/reci1385/"
+    },
+    "听戏台": {
+      "pinyin": "reci1383",
+      "link": "/minnanyu/reci1383/"
+    },
+    "财经之道": {
+      "pinyin": "reci1389",
+      "link": "/minnanyu/reci1389/"
+    },
+    "两岸史话": {
+      "pinyin": "reci1380",
+      "link": "/minnanyu/reci1380/"
+    },
+    "咱厝的歌": {
+      "pinyin": "reci1382",
+      "link": "/minnanyu/reci1382/"
+    },
+    "文化风情": {
+      "pinyin": "reci1379",
+      "link": "/minnanyu/reci1379/"
+    },
+    "漫生活": {
+      "pinyin": "reci1386",
+      "link": "/minnanyu/reci1386/"
+    },
+    "闽南有声": {
+      "pinyin": "reci1381",
+      "link": "/minnanyu/reci1381/"
+    },
+    "宝贝成长": {
+      "pinyin": "reci1387",
+      "link": "/minnanyu/reci1387/"
+    }
+  }
+}

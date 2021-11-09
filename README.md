@@ -3,6 +3,13 @@
 ## crawl rss feeds source
 ```sh
 cd crawler
-scrapy crawl xima_cates -O jsons/ximalaya_categories.json -t jsonlines
-scrapy crawl xima_cates -O jsons/ximalaya_categories.json -t jsonlines
+```
+First get all categories:
+```
+scrapy crawl xima_cates -t jsonlines
+```
+
+Then crawl contents into json file in jsons directory.
+```
+scrapy crawl xima_album -a url=https://www.ximalaya.com/yinyue/19750819/
 ```
