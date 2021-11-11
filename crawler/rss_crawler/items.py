@@ -40,3 +40,8 @@ class AlbumItem:
 @dataclass
 class TracksItem:
     xima: list = field(default_factory=list)
+
+@dataclass
+class TargetAlbums:
+    xima: dict = field(default_factory=dict)
+

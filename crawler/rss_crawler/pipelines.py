@@ -18,6 +18,14 @@ class RssCrawlerPipeline:
     def process_item(self, item, spider):
         # Store cates into file
         type_name = type(item).__name__
+        if type_name == 'TargetAlbums' and spider.name == 'xima_targets'\
+                and len(item.xima) == spider.target_cates_len:
+            dir = spider.settings.get('JSONS_DIR')
+            file = spider.settings.get('ALBUM_TARGETS_STORE')
+            with open(dir + '/' + file, 'w', encoding='utf-8') as f:
+                f.write(
+                    json.dumps(item.xima, ensure_ascii=False)
+                )
         if type_name  == 'XimaCatesItem':
             dir = spider.settings.get('JSONS_DIR')
             file = spider.settings.get('CATE_INFO_STORE')
@@ -47,7 +55,7 @@ class RssCrawlerPipeline:
                                 'author': ItemAdapter(self.author).asdict(),
                                 'album': ItemAdapter(self.album).asdict(),
                                 'category': ItemAdapter(self.category).asdict(),
-                                'tracks': ItemAdapter(item).asdict()
+                                'tracks': item.xima
                             }, ensure_ascii=False)
                         )
         return item
