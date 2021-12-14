@@ -17,6 +17,7 @@ def parse_cate_from_file(file):
 
 
 class XimalayaSpider(scrapy.Spider):
+    download_timeout = 10
     name = 'xima_album'
     cate_lv1 = None
     cate_lv2 = None
