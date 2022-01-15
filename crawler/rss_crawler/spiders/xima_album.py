@@ -7,14 +7,12 @@ import re
 from ..items import *
 from ..settings import *
 
-
 def parse_cate_from_file(file):
     with open(file, 'r') as f:
         try:
             return json.load(f)
         except ValueError:
             return None
-
 
 class XimalayaSpider(scrapy.Spider):
     download_timeout = 10

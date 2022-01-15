@@ -3,3 +3,4 @@ __pycache__
 *.json
 crawler/rss_crawler/jsons
 *.rdb
+migrations

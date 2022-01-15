@@ -6,11 +6,13 @@
 from scrapy.item import Item, Field
 from dataclasses import dataclass, field
 
-@dataclass
+
+@dataclass(init=True)
 class XimaCatesItem:
     lv1: dict = field(default_factory=dict)
     lv2: dict = field(default_factory=dict)
     lv3: dict = field(default_factory=dict)
+
 
 @dataclass
 class CategoryItem:
@@ -41,7 +43,7 @@ class AlbumItem:
 class TracksItem:
     xima: list = field(default_factory=list)
 
+
 @dataclass
 class TargetAlbums:
     xima: dict = field(default_factory=dict)
-

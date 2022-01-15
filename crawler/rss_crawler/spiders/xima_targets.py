@@ -40,14 +40,11 @@ class XimaTargetsSpider(scrapy.Spider):
     def parse(self, response, **kwargs):
         cate = response.meta['cate']
         data = response.json()['data']
-        albums_list = [
-            {
+        albums_list = [{
                 'albumId': album['albumId'],
                 'link': album['link'],
                 'playCount': album['playCount'],
-                'trackCount': album['trackCount'],
-            }
-            for album in data['albums']]
+                'trackCount': album['trackCount'],} for album in data['albums']]
         self.my_target.xima[cate] = albums_list
         yield response.follow(ALBUM_RSS_FEED + str())
         yield self.my_target
