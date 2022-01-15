@@ -4,8 +4,9 @@ from flask_migrate import Migrate
 from flask_script import Manager
 from backend.blueprints.api.v1 import bp as api
 from backend.blueprints.web.page import bp as web
-from model import db,ma
+from models import db,ma
 from flask_cors import CORS
+from auth import jwt
 
 
 app = Flask(__name__)
@@ -17,10 +18,10 @@ app.register_blueprint(web)
 
 db.init_app(app)
 ma.init_app(app)
+jwt.init_app(app)
 
-migrate = Migrate(app, db)
 manager = Manager(app)
-
+migrate = Migrate(app, db)
 
 CORS(app)
 

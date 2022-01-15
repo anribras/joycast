@@ -1,18 +1,19 @@
 from flask import Blueprint, request, make_response, jsonify
 import datetime
-from model import db
-from model.user import User
+from models import db
+from models.user import *
 from backend.helper.utils import get_short_code
 from backend.helper.error import derived_error
 from flask_restful import Resource, Api
 from backend.helper.error import ErrorCode as E
 
-bp = Blueprint('api/v1', __name__)
+bp = Blueprint('v1', __name__)
 api = Api(bp, catch_all_404s=True)
 
 
 @bp.route('/')
 def index():
+    user = User()
     return {
         "nice": "you saw me"
     }
