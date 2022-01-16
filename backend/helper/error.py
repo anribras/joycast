@@ -7,6 +7,7 @@ class ErrorCode(Enum):
     data_null = 0x1002
     input_error = 0x1003
     data_deleted = 0x1004
+    user_not_exist_or_password_wrong = 0x1005
 
 
 def derived_error(item, extra=None):

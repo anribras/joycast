@@ -5,18 +5,27 @@ from models.user import *
 from backend.helper.utils import get_short_code
 from backend.helper.error import derived_error
 from flask_restful import Resource, Api
-from backend.helper.error import ErrorCode as E
+from flask_jwt_extended import  jwt_required
 
-bp = Blueprint('v1', __name__)
+bp = Blueprint('v1', __name__,url_prefix='/api/v1')
 api = Api(bp, catch_all_404s=True)
 
+from flask_jwt_extended import current_user
 
 @bp.route('/')
 def index():
-    user = User()
     return {
         "nice": "you saw me"
     }
+
+@bp.route('/protect')
+@jwt_required()
+def protect():
+    user = current_user
+    return {
+        'username' : user.username
+    }
+    pass
 
 
 @api.resource('/activity/<int:id>')

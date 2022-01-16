@@ -3,19 +3,23 @@ from backend.config import Development
 from flask_migrate import Migrate
 from flask_script import Manager
 from backend.blueprints.api.v1 import bp as api
-from backend.blueprints.web.page import bp as web
-from models import db,ma
+# from backend.blueprints.web.page import bp as web
+from backend.blueprints.auth import bp as auth
+from models import db, ma
 from flask_cors import CORS
-from auth import jwt
-
+from backend.auth import jwt
 
 app = Flask(__name__)
-app.config.from_object(Development)
-prefix = app.config['URL_PREFIX']
-# create blueprint
-app.register_blueprint(api, url_prefix=prefix)
-app.register_blueprint(web)
 
+# load dev env
+app.config.from_object(Development)
+
+# create blueprint
+app.register_blueprint(api)
+# app.register_blueprint(web)
+app.register_blueprint(auth)
+
+# init
 db.init_app(app)
 ma.init_app(app)
 jwt.init_app(app)
