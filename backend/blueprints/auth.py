@@ -1,4 +1,5 @@
 import flask
+import pymysql
 
 from backend.auth import jwt
 from flask import Blueprint, request, make_response, jsonify

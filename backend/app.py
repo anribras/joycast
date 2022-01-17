@@ -29,5 +29,16 @@ migrate = Migrate(app, db)
 
 CORS(app)
 
+# from scrapy import cmdline
+#
+#
+# @app.cli.command()
+# def scrapy():
+#     cmd = "scrapy crawl xima_album -a url=https://www.ximalaya.com/yinyue/41400381/ "
+#     cmdline.execute(cmd.split())
+#
+#
+# app.app_context().push()
+
 if __name__ == '__main__':
     app.run(debug=True)

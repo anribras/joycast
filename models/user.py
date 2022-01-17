@@ -1,9 +1,6 @@
 from . import db, TimeStampMixin
-from backend.auth import lm
-from flask_login import UserMixin, AnonymousUserMixin
 
-
-class User(TimeStampMixin, UserMixin, db.Model):
+class User(TimeStampMixin, db.Model):
     id = db.Column(db.BIGINT, primary_key=True, autoincrement=True)
     username = db.Column(db.VARCHAR(256), nullable=False,index=True, unique=True)
     password = db.Column(db.VARCHAR(256), nullable=False,index=True)

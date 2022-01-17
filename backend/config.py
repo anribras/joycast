@@ -1,3 +1,4 @@
+import  datetime
 class Common(object):
     URL_PREFIX = '/api/v1'
 
@@ -12,3 +13,4 @@ class Development(Common):
 
     # jwt
     JWT_SECRET_KEY = 'super'
+    JWT_ACCESS_TOKEN_EXPIRES = datetime.timedelta(days=500)

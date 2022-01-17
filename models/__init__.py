@@ -1,17 +1,16 @@
 from flask_sqlalchemy import SQLAlchemy
 from flask_marshmallow import Marshmallow
+from datetime import datetime
 
 db = SQLAlchemy()
 ma = Marshmallow()
 
-from datetime import datetime
 
 
 class TimeStampMixin(object):
     create_time = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
     update_time = db.Column(db.DateTime, default=datetime.utcnow)
     delete_at = db.Column(db.DateTime, nullable=True)
-
 
 
 # 1.

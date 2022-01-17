@@ -13,6 +13,10 @@ SPIDER_MODULES = ['rss_crawler.spiders']
 NEWSPIDER_MODULE = 'rss_crawler.spiders'
 
 
+# LOG level
+LOG_LEVEL = 'ERROR'
+
+
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'rss_crawler (+http://www.yourdomain.com)'
 
@@ -91,7 +95,7 @@ FEED_EXPORT_ENCODING = 'utf-8'
 #DUPEFILTER_CLASS = 'scrapy.dupefilters.BaseDupeFilter'
 
 # crawl urls
-JSONS_DIR = 'jsons'
+JSONS_DIR = 'rss_crawler/jsons'
 CATE_INFO = 'https://www.ximalaya.com/revision/category/allCategoryInfo'
 CATE_INFO_STORE = 'xima_categories.json'
 ALBUM_INFO = 'https://www.ximalaya.com/revision/album/v1/simple?'

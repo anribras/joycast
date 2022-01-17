@@ -4,8 +4,8 @@ import logging
 import scrapy
 import re
 
-from ..items import *
-from ..settings import *
+from rss_crawler.items import *
+from rss_crawler.settings import *
 
 def parse_cate_from_file(file):
     with open(file, 'r') as f:
