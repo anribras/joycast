@@ -1,7 +1,7 @@
 from flask import Blueprint, request, make_response, jsonify
 import datetime
 from models import db
-from models.user import *
+from models.v1 import *
 from backend.helper.utils import get_short_code
 from backend.helper.error import derived_error
 from flask_restful import Resource, Api

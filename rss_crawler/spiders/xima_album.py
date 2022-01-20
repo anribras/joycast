@@ -94,7 +94,8 @@ class XimalayaSpider(scrapy.Spider):
                 url = 'https:' + url
             my_author.url = url
             my_author.nickname = response.css('p.anchor-info-nick a::text').get()
-            my_author.introduction = response.css('p.anchor-intro::text').getall()[1]
+            intro = response.css('p.anchor-intro::text').getall()
+            my_author.introduction = intro[1] if len(intro) > 1 else intro[0]
         except ValueError:
             logging.error('Avatar error')
         yield my_author

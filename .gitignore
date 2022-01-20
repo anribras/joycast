@@ -1,5 +1,5 @@
 __pycache__
 .idea
 *.json
-crawler/rss_crawler/jsons
+rss_crawler/jsons
 *.rdb

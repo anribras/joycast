@@ -29,3 +29,23 @@ class TimeStampMixin(object):
 
 # 3.
 # # add import geoalchemy2
+
+import sqlalchemy.exc as e
+
+def get_one_or_create(session,
+                      model,
+                      create_method='',
+                      create_method_kwargs=None,
+                      **kwargs):
+    try:
+        return session.query(model).filter_by(**kwargs).one(), False
+    except e.NoResultFound:
+        kwargs.update(create_method_kwargs or {})
+        created = getattr(model, create_method, model)(**kwargs)
+        try:
+            session.add(created)
+            session.flush()
+            return created, True
+        except e.IntegrityError:
+            session.rollback()
+            return session.query(model).filter_by(**kwargs).one(), False

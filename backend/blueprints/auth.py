@@ -3,10 +3,10 @@ import pymysql
 
 from backend.auth import jwt
 from flask import Blueprint, request, make_response, jsonify
-from models.user import User
+from models.v1 import User
 from werkzeug.security import generate_password_hash, check_password_hash
 from models import db
-from models.user import User
+from models.v1 import User
 from backend.helper.error import derived_error, ErrorCode as E
 from flask_jwt_extended import create_access_token
 
