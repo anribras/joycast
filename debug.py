@@ -1,7 +1,5 @@
 import os
-
 from scrapy import cmdline
-
 # cmd = "scrapy crawl xima_cates -t jsonlines"
 # cmd = "scrapy runspider rss_crawler/spiders/xima_albums.py -a url=https://www.ximalaya.com/yinyue/5571971/"
 # cmd = "scrapy crawl xima_album -a url=https://www.ximalaya.com/yinyue/41400381/"

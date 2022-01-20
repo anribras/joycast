@@ -172,7 +172,7 @@ class RssCrawlerPipeline:
                                                               rich_intro=info['richIntro'] if 'richIntro' in info else '',
                                                               short_intro=info['shortIntro'] if 'shortIntro' in info else '',
                                                               last_update=datetime.strptime(info['lastUpdate'],"%Y-%m-%d %H:%M:%S"),
-                                                              audio=audio['src'],
+                                                              audio=audio['src'] if 'src' in  audio else '',
                                                               audio_duration=audio['sampleDuration'],
                                                               album_id=album.id,
                                                               user_id=user.id)

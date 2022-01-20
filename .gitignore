@@ -3,3 +3,4 @@ __pycache__
 *.json
 rss_crawler/jsons
 *.rdb
+.ipynb_checkpoints
