@@ -1,5 +1,5 @@
 from . import db, TimeStampMixin
-from sqlalchemy import UniqueConstraint
+from sqlalchemy import UniqueConstraint, Index
 
 
 class User(TimeStampMixin, db.Model):
@@ -155,3 +155,5 @@ class Track(TimeStampMixin, db.Model):
     rich_intro = db.Column(db.TEXT, nullable=False)
 
     last_update = db.Column(db.DateTime, nullable=True)
+
+    Index('idx_source_id_title', 'source_id', 'album_id')

@@ -1,16 +1,13 @@
 import os
 from scrapy import cmdline
 # cmd = "scrapy crawl xima_cates -t jsonlines"
-# cmd = "scrapy runspider xima_crawler/spiders/xima_albums.py -a url=https://www.ximalaya.com/yinyue/5571971/"
-# cmd = "scrapy crawl xima_album -a url=https://www.ximalaya.com/yinyue/41400381/"
-# cmd = "scrapy crawl xima_album -a url=https://www.ximalaya.com/yingshi/37763875/"
-# cmd = "scrapy crawl xima_album_new -a url=https://www.ximalaya.com/ertong/9031108/"
+# cmd = "scrapy crawl xima_album_new -a url=https://www.ximalaya.com/keji/40578065/"
 # cmdline.execute(cmd.split())
 
 import json
 import re
 with open('xima_crawler/jsons/xima_targets.json', 'r') as f:
-    last_update = '/yingshi/35468142/'
+    last_update = '/keji/48707848/'
     go = True
     j = json.load(f)
     for key in j:

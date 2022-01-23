@@ -10,9 +10,8 @@ from xima_crawler.settings import *
 import hashlib
 
 from backend.app import app
-from models import db, get_one_or_create, update_or_create
+from models import db, update_or_create
 from models.v1 import *
-import sqlalchemy
 from datetime import datetime
 import requests
 
@@ -31,11 +30,9 @@ class XimalayaSpider(scrapy.Spider):
     cate_lv1 = None
     cate_lv2 = None
     cate_lv3 = None
-    album_id = 0
     url = ''
 
     my_category = CategoryItem()
-    my_tracks = TracksItem(xima=[])
     my_album = AlbumItem(xima=XimaAlbum())
 
     user_id = None
@@ -116,7 +113,7 @@ class XimalayaSpider(scrapy.Spider):
             audio = item['audio']
             logging.info('audio url=' + audio['src'] if 'src' in audio else '')
             track, exists = update_or_create(db.session, Track,
-                                             is_existed_keys=['source_id', 'title'],
+                                             is_existed_keys=['source_id', 'album_id'],
                                              source_type=0,
                                              source_id=info['trackId'],
                                              index=item['index'],
@@ -131,12 +128,12 @@ class XimalayaSpider(scrapy.Spider):
                                              album_id=self.album_id,
                                              user_id=self.user_id)
             self.track_id = track.id
-            statics, exists = update_or_create(db.session, TrackStatics,
-                                               is_existed_keys=['track_id'],
-                                               play_counts=info['playCount'],
-                                               like_counts=info['likeCount'],
-                                               comment_counts=info['commentCount'],
-                                               track_id=self.track_id)
+            static, exists = update_or_create(db.session, TrackStatics,
+                                              is_existed_keys=['track_id'],
+                                              play_counts=info['playCount'],
+                                              like_counts=info['likeCount'],
+                                              comment_counts=info['commentCount'],
+                                              track_id=self.track_id)
             logging.info('index=' + str(item['index']))
             db.session.commit()
 
@@ -162,12 +159,12 @@ class XimalayaSpider(scrapy.Spider):
         # at least search for 1 page
         if track_page_nums is None:
             track_page_nums = 1
-        # Max 200 most recent tracks for 1 album
-        # Page default size: 50
-        if int(track_page_nums) > 4:
-            track_page_nums = 4
+        # Max 240 most recent tracks for 1 album
+        # Page default size: 30
+        if int(track_page_nums) > 8:
+            track_page_nums = 8
         track_list_urls = [
-            TRACK_LIST + 'albumId=' + self.album_id + '&pageNum=' + str(index) + '&pageSize=50'
+            TRACK_LIST + 'albumId=' + self.album_id + '&pageNum=' + str(index)
             for index in range(1, int(track_page_nums) + 1)
         ]
         yield from response.follow_all(track_list_urls, callback=self.parse_track_list)
@@ -231,30 +228,23 @@ class XimalayaSpider(scrapy.Spider):
         length = response.json()['data']['trackTotalCount']
         # final get trackcounts here, save album
         self.save_album(self.my_album, length)
-
-        if (not len(self.my_tracks.xima)):
-            self.my_tracks.xima = [{}] * length
         for track in response.json()['data']['tracks']:
-            index = track['index']
             track_id = track['trackId']
-            self.my_tracks.xima[index - 1] = track
             yield response.follow(TRACK_INFO + 'trackId=' + str(track_id),
                                   callback=self.parse_track_info,
                                   # pass index to next parser
                                   cb_kwargs={"track": track})
 
     def parse_track_info(self, response, **kwargs):
-        index = kwargs['track']['index'] - 1
-        track_id = kwargs['track']['trackId']
-        self.my_tracks.xima[index]['detail'] = response.json()['data']
+        track = kwargs['track']
+        track_id = track['trackId']
+        track['detail'] = response.json()['data']
         yield response.follow(TRACK_PLAY_URL + 'id=' + str(track_id),
                               callback=self.parse_track_playurl,
                               # pass index to next parser
-                              cb_kwargs={"track": kwargs['track']})
+                              cb_kwargs={"track": track})
 
     def parse_track_playurl(self, response, **kwargs):
-        index = kwargs['track']['index'] - 1
-        self.my_tracks.xima[index]['audio'] = response.json()['data']
-        self.save_track(self.my_tracks.xima[index])
-
-        # yield self.my_tracks
+        track = kwargs['track']
+        track['audio'] = response.json()['data']
+        self.save_track(track)

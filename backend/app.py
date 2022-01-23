@@ -25,7 +25,7 @@ ma.init_app(app)
 jwt.init_app(app)
 
 manager = Manager(app)
-migrate = Migrate(app, db)
+migrate = Migrate(app, db, compare_type=True)
 
 CORS(app)
 

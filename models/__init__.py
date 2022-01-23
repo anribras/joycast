@@ -51,7 +51,7 @@ def get_one_or_create(session,
             return session.query(model).filter_by(**kwargs).one(), False
 
 
-def update_or_create(session, model, is_existed_keys: list = [], **kwargs):
+def update_or_create(session, model, is_existed_keys: list = [],   **kwargs):
     query = None
     old = None
     obj = None
