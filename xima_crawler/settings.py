@@ -1,4 +1,4 @@
-# Scrapy settings for rss_crawler project
+# Scrapy settings for xima_crawler project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -7,10 +7,10 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'rss_crawler'
+BOT_NAME = 'xima_crawler'
 
-SPIDER_MODULES = ['rss_crawler.spiders']
-NEWSPIDER_MODULE = 'rss_crawler.spiders'
+SPIDER_MODULES = ['xima_crawler.spiders']
+NEWSPIDER_MODULE = 'xima_crawler.spiders'
 
 
 # LOG level
@@ -18,7 +18,7 @@ LOG_LEVEL = 'INFO'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'rss_crawler (+http://www.yourdomain.com)'
+#USER_AGENT = 'xima_crawler (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
@@ -49,13 +49,13 @@ ROBOTSTXT_OBEY = True
 # Enable or disable spider middlewares
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 # SPIDER_MIDDLEWARES = {
-#    'rss_crawler.middlewares.RssCrawlerSpiderMiddleware': 543,
+#    'xima_crawler.middlewares.RssCrawlerSpiderMiddleware': 543,
 # }
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 DOWNLOADER_MIDDLEWARES = {
-   'rss_crawler.middlewares.RssCrawlerDownloaderMiddleware': 543,
+   'xima_crawler.middlewares.RssCrawlerDownloaderMiddleware': 543,
 }
 
 # Enable or disable extensions
@@ -67,7 +67,7 @@ DOWNLOADER_MIDDLEWARES = {
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-   'rss_crawler.pipelines.RssCrawlerPipeline': 300,
+   'xima_crawler.pipelines.RssCrawlerPipeline': 300,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
@@ -95,7 +95,7 @@ FEED_EXPORT_ENCODING = 'utf-8'
 #DUPEFILTER_CLASS = 'scrapy.dupefilters.BaseDupeFilter'
 
 # crawl urls
-JSONS_DIR = 'rss_crawler/jsons'
+JSONS_DIR = 'xima_crawler/jsons'
 CATE_INFO = 'https://www.ximalaya.com/revision/category/allCategoryInfo'
 CATE_INFO_STORE = 'xima_categories.json'
 ALBUM_INFO = 'https://www.ximalaya.com/revision/album/v1/simple?'

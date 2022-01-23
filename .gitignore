@@ -1,6 +1,6 @@
 __pycache__
 .idea
 *.json
-rss_crawler/jsons
+xima_crawler/jsons
 *.rdb
 .ipynb_checkpoints

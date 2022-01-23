@@ -4,8 +4,8 @@ import logging
 import scrapy
 import re
 
-from rss_crawler.items import *
-from rss_crawler.settings import *
+from xima_crawler.items import *
+from xima_crawler.settings import *
 
 def parse_cate_from_file(file):
     with open(file, 'r') as f:
@@ -49,8 +49,10 @@ class XimalayaSpider(scrapy.Spider):
         # at least search for 1 page
         if track_page_nums is None:
             track_page_nums = 1
+        if int(track_page_nums) > 4:
+            track_page_nums = 4
         track_list_urls = [
-            TRACK_LIST + 'albumId=' + self.album_id + '&pageNum=' + str(index)
+            TRACK_LIST + 'albumId=' + self.album_id + '&pageNum=' + str(index) + '&pageSize=50'
             for index in range(1, int(track_page_nums) + 1)
         ]
         yield from response.follow_all(track_list_urls, callback=self.parse_track_list)
@@ -106,7 +108,7 @@ class XimalayaSpider(scrapy.Spider):
         yield my_album
 
     def parse_track_list(self, response, **kwargs):
-        length = response.json()['data']['trackTotalCount']
+        length = response.json()['data']['trackTotalCount'] if response.json()['data']['trackTotalCount'] <= 200 else 200
         if (not len(self.my_tracks.xima)):
             self.my_tracks.xima = [{}] * length
         for track in response.json()['data']['tracks']:

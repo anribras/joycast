@@ -1,8 +1,8 @@
 """init
 
-Revision ID: a52a6ee1c83f
+Revision ID: 8680cf963e83
 Revises: 
-Create Date: 2022-01-20 13:32:20.819758
+Create Date: 2022-01-23 14:23:41.042205
 
 """
 from alembic import op
@@ -10,7 +10,7 @@ import sqlalchemy as sa
 
 
 # revision identifiers, used by Alembic.
-revision = 'a52a6ee1c83f'
+revision = '8680cf963e83'
 down_revision = None
 branch_labels = None
 depends_on = None
@@ -39,7 +39,6 @@ def upgrade():
     sa.Column('track_total_counts', sa.BIGINT(), nullable=False),
     sa.PrimaryKeyConstraint('id')
     )
-    op.create_index(op.f('ix_album_title'), 'album', ['title'], unique=True)
     op.create_table('album_statics',
     sa.Column('id', sa.BIGINT(), autoincrement=True, nullable=False),
     sa.Column('play_counts', sa.BIGINT(), nullable=True),
@@ -52,7 +51,8 @@ def upgrade():
     sa.Column('is_public', sa.BOOLEAN(), nullable=True),
     sa.Column('has_buy', sa.BOOLEAN(), nullable=True),
     sa.Column('is_paid', sa.BOOLEAN(), nullable=True),
-    sa.PrimaryKeyConstraint('id')
+    sa.PrimaryKeyConstraint('id'),
+    sa.UniqueConstraint('album_id')
     )
     op.create_table('album_tag_pivot',
     sa.Column('id', sa.BIGINT(), autoincrement=True, nullable=False),
@@ -92,6 +92,7 @@ def upgrade():
     sa.Column('last_update', sa.DateTime(), nullable=True),
     sa.PrimaryKeyConstraint('id')
     )
+    op.create_index(op.f('ix_track_album_id'), 'track', ['album_id'], unique=False)
     op.create_table('track_statics',
     sa.Column('id', sa.BIGINT(), autoincrement=True, nullable=False),
     sa.Column('play_counts', sa.BIGINT(), nullable=True),
@@ -99,7 +100,8 @@ def upgrade():
     sa.Column('comment_counts', sa.BIGINT(), nullable=True),
     sa.Column('like_counts', sa.BIGINT(), nullable=True),
     sa.Column('track_id', sa.BIGINT(), nullable=False),
-    sa.PrimaryKeyConstraint('id')
+    sa.PrimaryKeyConstraint('id'),
+    sa.UniqueConstraint('track_id')
     )
     op.create_table('user',
     sa.Column('create_time', sa.DateTime(), nullable=False),
@@ -125,11 +127,11 @@ def downgrade():
     op.drop_index(op.f('ix_user_password'), table_name='user')
     op.drop_table('user')
     op.drop_table('track_statics')
+    op.drop_index(op.f('ix_track_album_id'), table_name='track')
     op.drop_table('track')
     op.drop_table('tag')
     op.drop_table('category')
     op.drop_table('album_tag_pivot')
     op.drop_table('album_statics')
-    op.drop_index(op.f('ix_album_title'), table_name='album')
     op.drop_table('album')
     # ### end Alembic commands ###

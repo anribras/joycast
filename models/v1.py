@@ -1,4 +1,5 @@
 from . import db, TimeStampMixin
+from sqlalchemy import UniqueConstraint
 
 
 class User(TimeStampMixin, db.Model):
@@ -33,7 +34,7 @@ class AlbumStatics(db.Model):
     subscribe_counts = db.Column(db.BIGINT, nullable=True)
     comment_counts = db.Column(db.BIGINT, nullable=True)
     like_counts = db.Column(db.BIGINT, nullable=True)
-    album_id = db.Column(db.BIGINT, nullable=False)
+    album_id = db.Column(db.BIGINT, nullable=False, unique=True)
     album = db.relationship(
         'Album',
         # foreign_keys means ,
@@ -48,9 +49,6 @@ class AlbumStatics(db.Model):
     is_public = db.Column(db.BOOLEAN, nullable=True)
     has_buy = db.Column(db.BOOLEAN, nullable=True)
     is_paid = db.Column(db.BOOLEAN, nullable=True)
-
-    def __init__(self, **kwargs):
-        super(AlbumStatics, self).__init__(**kwargs)
 
 
 class AlbumTagPivot(db.Model):
@@ -91,7 +89,7 @@ class Album(TimeStampMixin, db.Model):
                            )
     album_create_date = db.Column(db.DateTime, nullable=True)
     album_update_date = db.Column(db.DateTime, nullable=True)
-    title = db.Column(db.VARCHAR(1024), nullable=False, index=True, unique=True)
+    title = db.Column(db.VARCHAR(1024), nullable=False)
     short_intro = db.Column(db.TEXT, nullable=True)
     rich_intro = db.Column(db.TEXT, nullable=True)
     rich_detail_intro = db.Column(db.TEXT, nullable=True)
@@ -103,9 +101,7 @@ class Album(TimeStampMixin, db.Model):
                            primaryjoin=lambda: Album.id == AlbumTagPivot.album_id,
                            secondaryjoin=lambda: AlbumTagPivot.tag_id == Tag.id,
                            lazy=True)
-
-    def __init__(self, **kwargs):
-        super(Album, self).__init__(**kwargs)
+    UniqueConstraint('source_id', 'title')
 
 
 class Tag(db.Model):
@@ -128,7 +124,7 @@ class TrackStatics(db.Model):
     subscribe_counts = db.Column(db.BIGINT, nullable=True)
     comment_counts = db.Column(db.BIGINT, nullable=True)
     like_counts = db.Column(db.BIGINT, nullable=True)
-    track_id = db.Column(db.BIGINT, nullable=False)
+    track_id = db.Column(db.BIGINT, nullable=False, unique=True)
     track = db.relationship(
         'Track',
         # foreign_keys means ,
@@ -139,7 +135,6 @@ class TrackStatics(db.Model):
         uselist=False)
 
 
-
 class Track(TimeStampMixin, db.Model):
     id = db.Column(db.BIGINT, primary_key=True, autoincrement=True)
     source_type = db.Column(db.SMALLINT, nullable=False)
@@ -148,7 +143,7 @@ class Track(TimeStampMixin, db.Model):
     user_id = db.Column(db.BIGINT, nullable=False)
     user = db.relationship('User', foreign_keys=[user_id], primaryjoin=lambda: User.id == Track.user_id, lazy=True)
 
-    album_id = db.Column(db.BIGINT, nullable=False)
+    album_id = db.Column(db.BIGINT, nullable=False, index=True)
     album = db.relationship('Album', foreign_keys=[album_id], primaryjoin=lambda: Album.id == Track.album_id, lazy=True)
 
     audio = db.Column(db.VARCHAR(1024), nullable=False)
