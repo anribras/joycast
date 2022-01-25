@@ -69,6 +69,7 @@ class XimalayaSpider(scrapy.Spider):
             rss_url = 'https://www.ximalaya.com/album/' + str(detail['albumId']) + '.xml'
             resp = requests.get(rss_url)
             rss_result = rss_url if len(resp.text) != 0 else ''
+
             album, exists = update_or_create(db.session, Album,
                                              is_existed_keys=['source_id', 'title'],
                                              source_type=0,
@@ -221,7 +222,13 @@ class XimalayaSpider(scrapy.Spider):
 
     def parse_album(self, response):
         self.my_album.xima.detail = response.json()['data']
-        yield response.follow(self.url, self.parse_tracks, dont_filter=True)
+        vip_type = self.my_album.xima.detail['albumPageMainInfo']['vipType'],
+        is_finished = self.my_album.xima.detail['albumPageMainInfo']['isFinished'],
+        is_paid = self.my_album.xima.detail['albumPageMainInfo']['isPaid'],
+        is_public = self.my_album.xima.detail['albumPageMainInfo']['isPublic'],
+        has_buy = self.my_album.xima.detail['albumPageMainInfo']['hasBuy'],
+        if vip_type != 2 and is_paid != 1:
+            yield response.follow(self.url, self.parse_tracks, dont_filter=True)
         # yield my_album
 
     def parse_track_list(self, response, **kwargs):
